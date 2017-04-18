@@ -1,7 +1,7 @@
 # PET
 
-Arbirescence GIT:
+Arborescence GIT:
 
-master
-  interface
-  scripts
+master:
+- interface
+- scripts
