@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PET_Unity", "PET_Unity.csproj", "{4E4CB361-C0C4-8B91-D95A-B79FAB4C1B5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PET_Unity.Editor.Plugins", "PET_Unity.Editor.Plugins.csproj", "{905B9B6E-3E43-A041-D7A9-5A449362BA64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PET_Unity.Editor", "PET_Unity.Editor.csproj", "{8CE859AC-30F9-2607-4AF0-F7F608F4F37D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E4CB361-C0C4-8B91-D95A-B79FAB4C1B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4CB361-C0C4-8B91-D95A-B79FAB4C1B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4CB361-C0C4-8B91-D95A-B79FAB4C1B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4CB361-C0C4-8B91-D95A-B79FAB4C1B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905B9B6E-3E43-A041-D7A9-5A449362BA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905B9B6E-3E43-A041-D7A9-5A449362BA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905B9B6E-3E43-A041-D7A9-5A449362BA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905B9B6E-3E43-A041-D7A9-5A449362BA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE859AC-30F9-2607-4AF0-F7F608F4F37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE859AC-30F9-2607-4AF0-F7F608F4F37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE859AC-30F9-2607-4AF0-F7F608F4F37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE859AC-30F9-2607-4AF0-F7F608F4F37D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
