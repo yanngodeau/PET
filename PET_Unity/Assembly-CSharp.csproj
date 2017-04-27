@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-      <unityProcessId>20544</unityProcessId>
+    <unityProcessId>20544</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -72,8 +72,8 @@
     <Compile Include="Assets\Scripts\Interface\ScrollSnapRect.cs" />
     <Compile Include="Assets\Scripts\Interface\TextColor.cs" />
     <Compile Include="Assets\Scripts\Raspberry.cs" />
-      <Compile Include="Assets\Scripts\Result.cs"/>
-      <Compile Include="Assets\Scripts\RootObject.cs"/>
+    <Compile Include="Assets\Scripts\Result.cs" />
+    <Compile Include="Assets\Scripts\RootObject.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\UIVerticalScrollerDemo\Scripts\ScrollingCalendar.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\testHref.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Accordion\Accordion.cs" />
