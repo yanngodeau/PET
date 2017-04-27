@@ -62,16 +62,7 @@ public class Raspberry : MonoBehaviour
     }
 
     /// <summary>
-    /// Affiche l'url
-    ///         http://{ip}:{port}
-    /// </summary>
-    public void DebugUrl()
-    {
-        Debug.Log("http://" + GetLogin() + GetPass() + ":" + GetPort());
-    }
-
-    /// <summary>
-    ///
+    /// Retourne l'url du raspberry
     /// </summary>
     /// <returns>L'url http://{ip}:{port}</returns>
     public String GetUrl()
@@ -80,27 +71,41 @@ public class Raspberry : MonoBehaviour
     }
 
 
+    /// <summary>
+    ///
+    /// </summary>
     public void CreateDeviceList()
     {
-        String url = "http://" + GetIp() + ":" + GetPort() + "/json.htm?type=devices";
-        WWW www = new WWW(url);
-        StartCoroutine(WaitForRequest(www));
+        String url = GetUrl() + "/json.htm?type=devices";
+        WWW www = Get(url);
         _deviceslist = JsonConvert.DeserializeObject<List<Device>>(www.text);
         Debug.Log(_deviceslist);
     }
 
-    public IEnumerator WaitForRequest(WWW www)
+    private WWW Get(string url)
     {
-        yield return www;
+        WWW www = new WWW(url);
 
-        // check for errors
-        if (www.error == null)
+        StartCoroutine(WaitForWWW(www));
+        //do nothing untill json is loaded
+        while (!www.isDone)
         {
-            Debug.Log("WWW Ok!: " + www.text);
+        }
+
+        if (string.IsNullOrEmpty(www.error))
+        {
+            Debug.Log("WWW OK : = " + www.text);
         }
         else
         {
-            Debug.Log("WWW Error: " + www.error);
+            Debug.Log("WWW error: " + www.error);
         }
+
+        return www;
+    }
+
+    IEnumerator WaitForWWW(WWW www)
+    {
+        yield return www;
     }
 }

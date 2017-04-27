@@ -17,44 +17,6 @@ public class ConnectionScript : MonoBehaviour
     [SerializeField] public Raspberry Rpi;
     [SerializeField] public Text Retour;
 
-    /// <summary>
-    /// Retourne le texte saisi dans l'InputField Port
-    /// </summary>
-    /// <returns>Port.text : String</returns>
-    public String GetPortInput()
-    {
-        return Port.text;
-    }
-
-
-    /// <summary>
-    /// Retourne le texte saisi dans l'InputField Ip
-    /// </summary>
-    /// <returns>Ip.text : String</returns>
-    public String GetIpInput()
-    {
-        return Ip.text;
-    }
-
-
-    /// <summary>
-    /// Retourne le texte saisi dans l'InputField Login
-    /// </summary>
-    /// <returns>Login.text : String</returns>
-    public String GetLoginInput()
-    {
-        return Login.text;
-    }
-
-
-    /// <summary>
-    /// Retourne le texte saisi dans l'InputField Mdp
-    /// </summary>
-    /// <returns>Pass.text : String</returns>
-    public String GetPassInput()
-    {
-        return Pass.text;
-    }
 
     /// <summary>
     /// Onclick du bouton connexion de la page connextion.
@@ -69,7 +31,7 @@ public class ConnectionScript : MonoBehaviour
             Rpi.SetPort(Port.text);
             Rpi.SetLogin(Login.text);
             Rpi.SetPass(Pass.text);
-            Rpi.CreateDeviceList();
+          //  Rpi.CreateDeviceList();
             SceneManager.LoadScene(1);
         }
         else
@@ -88,25 +50,40 @@ public class ConnectionScript : MonoBehaviour
     private bool ConnectTest(String ip, String port)
     {
         String url = "http://" + ip + ":" + port + "/json.htm?type=command&param=getSunRiseSet";
-        WWW www = new WWW(url);
-        StartCoroutine(WaitForRequest(www));
-
-        return www.error == null;
+        WWW www = Get(url);
+        return www.text != "";
     }
 
 
-    public IEnumerator WaitForRequest(WWW www)
+    /// <summary>
+    /// Permet d'envoyer la requete http
+    /// </summary>
+    /// <param name="url"></param>
+    /// <returns>WWW</returns>
+    private WWW Get(string url)
     {
-        yield return www;
+        WWW www = new WWW(url);
 
-        // check for errors
-        if (www.error == null)
+        StartCoroutine(WaitForWWW(www));
+        //do nothing untill json is loaded
+        while (!www.isDone)
         {
-            Debug.Log("WWW Ok!: " + www.text);
+        }
+
+        if (string.IsNullOrEmpty(www.error))
+        {
+            Debug.Log("WWW OK : = " + www.text);
         }
         else
         {
-            Debug.Log("WWW Error: " + www.error);
+            Debug.Log("WWW error: " + www.error);
         }
+
+        return www;
+    }
+
+    IEnumerator WaitForWWW(WWW www)
+    {
+        yield return www;
     }
 }

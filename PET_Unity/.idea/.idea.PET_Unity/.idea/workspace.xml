@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bea7534c-d0b4-4e16-ab00-f793c6d69c5a" name="Default" comment="" />
+    <list default="true" id="bea7534c-d0b4-4e16-ab00-f793c6d69c5a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.PET_Unity/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1af59de84584e4de9b85e62d10ba101d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-35fcfbe048ef242f891b70c36ac2d859" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cc89415a95b9c4e8290480af74e4ffb8" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/8b/8b230872b6e3d400e9bfefc84ce67f24" afterPath="$PROJECT_DIR$/Library/metadata/8b/8b230872b6e3d400e9bfefc84ce67f24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/a7/a75a81d0a6dde4fe595256dcde913ffe" afterPath="$PROJECT_DIR$/Library/metadata/a7/a75a81d0a6dde4fe595256dcde913ffe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/b5/b5ddecedac61542019c5fc12f0eb3a6f" afterPath="$PROJECT_DIR$/Library/metadata/b5/b5ddecedac61542019c5fc12f0eb3a6f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.PET_Unity/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.PET_Unity/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Device.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Device.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Raspberry.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Raspberry.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PET_Unity.Editor.Plugins.csproj" afterPath="$PROJECT_DIR$/PET_Unity.Editor.Plugins.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PET_Unity.Editor.csproj" afterPath="$PROJECT_DIR$/PET_Unity.Editor.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PET_Unity.csproj" afterPath="$PROJECT_DIR$/PET_Unity.csproj" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +37,25 @@
       <file leaf-file-name="ConnectionScript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-309">
-              <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="900">
+              <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+              <folding>
+                <marker date="1493295380000" expanded="true" signature="6:115" ph="..." />
+                <marker date="1493295380000" expanded="true" signature="117:249" ph="/// Cette classe gère la connexion avec le Raspberry. ... " />
+                <marker date="1493295380000" expanded="true" signature="295:2407" ph="{...}" />
+                <marker date="1493295380000" expanded="true" signature="567:731" ph="/// Onclick du bouton connexion de la page connextion. ... " />
+                <marker date="1493295380000" expanded="true" signature="759:1279" ph="{...}" />
+                <marker date="1493295380000" expanded="true" signature="846:1127" ph="{...}" />
+                <marker date="1493295380000" expanded="true" signature="1140:1273" ph="{...}" />
+                <marker date="1493295380000" expanded="true" signature="1285:1535" ph="/// Test la connexion avec le raspberry ... " />
+                <marker date="1493295380000" expanded="true" signature="1588:1756" ph="{...}" />
+                <marker date="1493295380000" expanded="true" signature="1763:1902" ph="/// Permet d'envoyer la requete http ... " />
+                <marker date="1493295380000" expanded="true" signature="1934:2330" ph="{...}" />
+                <marker date="1493295380000" expanded="true" signature="2085:2105" ph="{...}" />
+                <marker date="1493295380000" expanded="true" signature="2151:2220" ph="{...}" />
+                <marker date="1493295380000" expanded="true" signature="2233:2303" ph="{...}" />
+                <marker date="1493295380000" expanded="true" signature="2367:2405" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -25,29 +63,30 @@
       <file leaf-file-name="Raspberry.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raspberry.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="611">
+              <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
               <folding>
-                <marker date="1493131537000" expanded="true" signature="6:115" ph="..." />
-                <marker date="1493131537000" expanded="true" signature="117:149" ph="/// ... " />
-                <marker date="1493131537000" expanded="true" signature="188:1966" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="350:411" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="441:476" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="505:539" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="566:598" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="627:661" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="702:738" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="776:810" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="844:874" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="912:946" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="952:1041" ph="/// Affiche l'url ... " />
-                <marker date="1493131537000" expanded="true" signature="1068:1153" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="1159:1251" ph="/// ... " />
-                <marker date="1493131537000" expanded="true" signature="1278:1344" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="1381:1668" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="1716:1964" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="1808:1875" ph="{...}" />
-                <marker date="1493131537000" expanded="true" signature="1888:1958" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="6:115" ph="..." />
+                <marker date="1493295444000" expanded="true" signature="117:149" ph="/// ... " />
+                <marker date="1493295444000" expanded="true" signature="188:1962" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="350:411" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="441:476" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="505:539" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="566:598" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="627:661" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="702:738" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="776:810" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="844:874" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="912:946" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="952:1072" ph="/// Retourne l'url du raspberry ... " />
+                <marker date="1493295444000" expanded="true" signature="1099:1165" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="1172:1212" ph="/// ... " />
+                <marker date="1493295444000" expanded="true" signature="1247:1456" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="1489:1885" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="1640:1660" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="1706:1775" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="1788:1858" ph="{...}" />
+                <marker date="1493295444000" expanded="true" signature="1922:1960" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -56,18 +95,13 @@
       <file leaf-file-name="Device.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Device.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="425">
+              <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
-                <marker date="1493131924000" expanded="true" signature="6:32" ph="..." />
-                <marker date="1493131924000" expanded="true" signature="78:760" ph="{...}" />
-                <marker date="1493131924000" expanded="true" signature="250:348" ph="{...}" />
-                <marker date="1493131924000" expanded="true" signature="387:418" ph="{...}" />
-                <marker date="1493131924000" expanded="true" signature="451:487" ph="{...}" />
-                <marker date="1493131924000" expanded="true" signature="531:570" ph="{...}" />
-                <marker date="1493131924000" expanded="true" signature="595:627" ph="{...}" />
-                <marker date="1493131924000" expanded="true" signature="656:689" ph="{...}" />
-                <marker date="1493131924000" expanded="true" signature="726:758" ph="{...}" />
+                <marker date="1493221183000" expanded="true" signature="6:66" ph="..." />
+                <marker date="1493221183000" expanded="true" signature="112:2863" ph="{...}" />
+                <marker date="1493221183000" expanded="true" signature="139:2509" ph="{...}" />
+                <marker date="1493221183000" expanded="true" signature="2538:2859" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,12 +109,16 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Device.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Result.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Raspberry.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Device.cs" />
       </list>
     </option>
   </component>
@@ -96,6 +134,7 @@
     <option name="width" value="1260" />
     <option name="height" value="677" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -124,6 +163,60 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PET_Unity (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PET_Unity (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PET_Unity (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -133,6 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,12 +331,13 @@
       <workItem from="1493121754639" duration="35000" />
       <workItem from="1493121823016" duration="609000" />
       <workItem from="1493123104045" duration="6853000" />
-      <workItem from="1493211279254" duration="341000" />
+      <workItem from="1493211279254" duration="9053000" />
+      <workItem from="1493294988029" duration="456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7841000" />
+    <option name="totallyTimeSpent" value="17009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,16 +357,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2093596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21264368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2957265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -284,21 +379,130 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+          <folding>
+            <marker date="1493295380000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493295380000" expanded="true" signature="117:249" ph="/// Cette classe gère la connexion avec le Raspberry. ... " />
+            <marker date="1493295380000" expanded="true" signature="295:2407" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="567:731" ph="/// Onclick du bouton connexion de la page connextion. ... " />
+            <marker date="1493295380000" expanded="true" signature="759:1279" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="846:1127" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1140:1273" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1285:1535" ph="/// Test la connexion avec le raspberry ... " />
+            <marker date="1493295380000" expanded="true" signature="1588:1756" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1763:1902" ph="/// Permet d'envoyer la requete http ... " />
+            <marker date="1493295380000" expanded="true" signature="1934:2330" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2085:2105" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2151:2220" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2233:2303" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2367:2405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raspberry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <marker date="1493295444000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493295444000" expanded="true" signature="117:149" ph="/// ... " />
+            <marker date="1493295444000" expanded="true" signature="188:1962" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="350:411" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="441:476" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="505:539" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="566:598" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="627:661" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="702:738" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="776:810" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="844:874" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="912:946" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="952:1072" ph="/// Retourne l'url du raspberry ... " />
+            <marker date="1493295444000" expanded="true" signature="1099:1165" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1172:1212" ph="/// ... " />
+            <marker date="1493295444000" expanded="true" signature="1247:1456" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1489:1885" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1640:1660" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1706:1775" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1788:1858" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1922:1960" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Device.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <marker date="1493221183000" expanded="true" signature="6:66" ph="..." />
+            <marker date="1493221183000" expanded="true" signature="112:2863" ph="{...}" />
+            <marker date="1493221183000" expanded="true" signature="139:2509" ph="{...}" />
+            <marker date="1493221183000" expanded="true" signature="2538:2859" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1493295380000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493295380000" expanded="true" signature="117:249" ph="/// Cette classe gère la connexion avec le Raspberry. ... " />
+            <marker date="1493295380000" expanded="true" signature="295:2407" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="567:731" ph="/// Onclick du bouton connexion de la page connextion. ... " />
+            <marker date="1493295380000" expanded="true" signature="759:1279" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="846:1127" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1140:1273" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1285:1535" ph="/// Test la connexion avec le raspberry ... " />
+            <marker date="1493295380000" expanded="true" signature="1588:1756" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1763:1902" ph="/// Permet d'envoyer la requete http ... " />
+            <marker date="1493295380000" expanded="true" signature="1934:2330" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2085:2105" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2151:2220" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2233:2303" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2367:2405" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -307,15 +511,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <marker date="1493131924000" expanded="true" signature="6:32" ph="..." />
-            <marker date="1493131924000" expanded="true" signature="78:760" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="250:348" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="387:418" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="451:487" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="531:570" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="595:627" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="656:689" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="726:758" ph="{...}" />
+            <marker date="1493221183000" expanded="true" signature="6:66" ph="..." />
+            <marker date="1493221183000" expanded="true" signature="112:2863" ph="{...}" />
+            <marker date="1493221183000" expanded="true" signature="139:2509" ph="{...}" />
+            <marker date="1493221183000" expanded="true" signature="2538:2859" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -325,26 +524,27 @@
         <state relative-caret-position="1320">
           <caret line="88" column="30" lean-forward="false" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
           <folding>
-            <marker date="1493131537000" expanded="true" signature="6:115" ph="..." />
-            <marker date="1493131537000" expanded="true" signature="117:149" ph="/// ... " />
-            <marker date="1493131537000" expanded="true" signature="188:1966" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="350:411" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="441:476" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="505:539" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="566:598" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="627:661" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="702:738" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="776:810" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="844:874" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="912:946" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="952:1041" ph="/// Affiche l'url ... " />
-            <marker date="1493131537000" expanded="true" signature="1068:1153" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1159:1251" ph="/// ... " />
-            <marker date="1493131537000" expanded="true" signature="1278:1344" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1381:1668" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1716:1964" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1808:1875" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1888:1958" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493295444000" expanded="true" signature="117:149" ph="/// ... " />
+            <marker date="1493295444000" expanded="true" signature="188:1962" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="350:411" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="441:476" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="505:539" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="566:598" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="627:661" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="702:738" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="776:810" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="844:874" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="912:946" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="952:1072" ph="/// Retourne l'url du raspberry ... " />
+            <marker date="1493295444000" expanded="true" signature="1099:1165" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1172:1212" ph="/// ... " />
+            <marker date="1493295444000" expanded="true" signature="1247:1456" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1489:1885" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1640:1660" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1706:1775" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1788:1858" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1922:1960" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -360,7 +560,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1493295380000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493295380000" expanded="true" signature="117:249" ph="/// Cette classe gère la connexion avec le Raspberry. ... " />
+            <marker date="1493295380000" expanded="true" signature="295:2407" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="567:731" ph="/// Onclick du bouton connexion de la page connextion. ... " />
+            <marker date="1493295380000" expanded="true" signature="759:1279" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="846:1127" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1140:1273" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1285:1535" ph="/// Test la connexion avec le raspberry ... " />
+            <marker date="1493295380000" expanded="true" signature="1588:1756" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1763:1902" ph="/// Permet d'envoyer la requete http ... " />
+            <marker date="1493295380000" expanded="true" signature="1934:2330" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2085:2105" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2151:2220" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2233:2303" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2367:2405" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -369,26 +585,27 @@
         <state relative-caret-position="1095">
           <caret line="73" column="7" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="73" selection-end-column="7" />
           <folding>
-            <marker date="1493131537000" expanded="true" signature="6:115" ph="..." />
-            <marker date="1493131537000" expanded="true" signature="117:149" ph="/// ... " />
-            <marker date="1493131537000" expanded="true" signature="188:1966" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="350:411" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="441:476" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="505:539" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="566:598" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="627:661" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="702:738" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="776:810" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="844:874" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="912:946" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="952:1041" ph="/// Affiche l'url ... " />
-            <marker date="1493131537000" expanded="true" signature="1068:1153" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1159:1251" ph="/// ... " />
-            <marker date="1493131537000" expanded="true" signature="1278:1344" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1381:1668" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1716:1964" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1808:1875" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1888:1958" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493295444000" expanded="true" signature="117:149" ph="/// ... " />
+            <marker date="1493295444000" expanded="true" signature="188:1962" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="350:411" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="441:476" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="505:539" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="566:598" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="627:661" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="702:738" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="776:810" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="844:874" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="912:946" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="952:1072" ph="/// Retourne l'url du raspberry ... " />
+            <marker date="1493295444000" expanded="true" signature="1099:1165" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1172:1212" ph="/// ... " />
+            <marker date="1493295444000" expanded="true" signature="1247:1456" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1489:1885" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1640:1660" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1706:1775" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1788:1858" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1922:1960" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -404,7 +621,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1493295380000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493295380000" expanded="true" signature="117:249" ph="/// Cette classe gère la connexion avec le Raspberry. ... " />
+            <marker date="1493295380000" expanded="true" signature="295:2407" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="567:731" ph="/// Onclick du bouton connexion de la page connextion. ... " />
+            <marker date="1493295380000" expanded="true" signature="759:1279" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="846:1127" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1140:1273" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1285:1535" ph="/// Test la connexion avec le raspberry ... " />
+            <marker date="1493295380000" expanded="true" signature="1588:1756" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1763:1902" ph="/// Permet d'envoyer la requete http ... " />
+            <marker date="1493295380000" expanded="true" signature="1934:2330" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2085:2105" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2151:2220" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2233:2303" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2367:2405" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -422,57 +655,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Device.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Result.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="900">
+          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
           <folding>
-            <marker date="1493131924000" expanded="true" signature="6:32" ph="..." />
-            <marker date="1493131924000" expanded="true" signature="78:760" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="250:348" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="387:418" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="451:487" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="531:570" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="595:627" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="656:689" ph="{...}" />
-            <marker date="1493131924000" expanded="true" signature="726:758" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493295380000" expanded="true" signature="117:249" ph="/// Cette classe gère la connexion avec le Raspberry. ... " />
+            <marker date="1493295380000" expanded="true" signature="295:2407" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="567:731" ph="/// Onclick du bouton connexion de la page connextion. ... " />
+            <marker date="1493295380000" expanded="true" signature="759:1279" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="846:1127" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1140:1273" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1285:1535" ph="/// Test la connexion avec le raspberry ... " />
+            <marker date="1493295380000" expanded="true" signature="1588:1756" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="1763:1902" ph="/// Permet d'envoyer la requete http ... " />
+            <marker date="1493295380000" expanded="true" signature="1934:2330" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2085:2105" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2151:2220" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2233:2303" ph="{...}" />
+            <marker date="1493295380000" expanded="true" signature="2367:2405" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Device.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <marker date="1493221183000" expanded="true" signature="6:66" ph="..." />
+            <marker date="1493221183000" expanded="true" signature="112:2863" ph="{...}" />
+            <marker date="1493221183000" expanded="true" signature="139:2509" ph="{...}" />
+            <marker date="1493221183000" expanded="true" signature="2538:2859" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raspberry.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="611">
+          <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
           <folding>
-            <marker date="1493131537000" expanded="true" signature="6:115" ph="..." />
-            <marker date="1493131537000" expanded="true" signature="117:149" ph="/// ... " />
-            <marker date="1493131537000" expanded="true" signature="188:1966" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="350:411" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="441:476" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="505:539" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="566:598" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="627:661" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="702:738" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="776:810" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="844:874" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="912:946" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="952:1041" ph="/// Affiche l'url ... " />
-            <marker date="1493131537000" expanded="true" signature="1068:1153" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1159:1251" ph="/// ... " />
-            <marker date="1493131537000" expanded="true" signature="1278:1344" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1381:1668" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1716:1964" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1808:1875" ph="{...}" />
-            <marker date="1493131537000" expanded="true" signature="1888:1958" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493295444000" expanded="true" signature="117:149" ph="/// ... " />
+            <marker date="1493295444000" expanded="true" signature="188:1962" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="350:411" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="441:476" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="505:539" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="566:598" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="627:661" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="702:738" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="776:810" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="844:874" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="912:946" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="952:1072" ph="/// Retourne l'url du raspberry ... " />
+            <marker date="1493295444000" expanded="true" signature="1099:1165" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1172:1212" ph="/// ... " />
+            <marker date="1493295444000" expanded="true" signature="1247:1456" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1489:1885" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1640:1660" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1706:1775" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1788:1858" ph="{...}" />
+            <marker date="1493295444000" expanded="true" signature="1922:1960" ph="{...}" />
           </folding>
         </state>
       </provider>
