@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>24211</unityProcessId>
+    <unityProcessId>24865</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -67,6 +67,7 @@
     <Compile Include="Assets\ProceduralUIImage\Scripts\ProceduralImage.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\ProceduralImageModifier.cs" />
     <Compile Include="Assets\Scripts\ConnectionScript.cs" />
+    <Compile Include="Assets\Scripts\Interface\ActivatePanel.cs" />
     <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\Interface\ScrollSnapRect.cs" />
@@ -74,6 +75,8 @@
     <Compile Include="Assets\Scripts\Raspberry.cs" />
     <Compile Include="Assets\Scripts\Result.cs" />
     <Compile Include="Assets\Scripts\RootObject.cs" />
+    <Compile Include="Assets\Switch\Resources\Scripts\Switch.cs" />
+    <Compile Include="Assets\Switch\Resources\Scripts\Tweening.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\UIVerticalScrollerDemo\Scripts\ScrollingCalendar.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\testHref.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Accordion\Accordion.cs" />
@@ -207,19 +210,18 @@
     <None Include="Assets\unity-ui-extensions\Shaders\UISoftAdditive.shader" />
     <None Include="Assets\ProceduralUIImage\Shaders\ProceduralImageRuntime.shader" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIParticleHidden.shader" />
+    <None Include="Assets\Plugins\Newtonsoft.Json.10.0.2\lib\net20\Newtonsoft.Json.xml" />
     <None Include="Assets\unity-ui-extensions\Shaders\SoftMaskShader.shader" />
     <None Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\SurrogatesReadMe.txt" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values-v21\styles.xml" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIImageCrop.shader" />
     <None Include="Assets\unity-ui-extensions\Shaders\UILinearDodge.shader" />
+    <None Include="Assets\Switch\Resources\Textures\README.txt" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIMultiply.shader" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values\styles.xml" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\AndroidManifest.xml" />
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -232,14 +234,14 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>/Users/yanngodeau/Desktop/PET_Unity/Assets/Plugins/Newtonsoft.Json.10.0.2/lib/net20/Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

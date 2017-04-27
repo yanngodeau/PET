@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>24211</unityProcessId>
+    <unityProcessId>24865</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -59,6 +59,8 @@
     <Compile Include="Assets\ProceduralUIImage\Editor\ModifierUtility.cs" />
     <Compile Include="Assets\ProceduralUIImage\Editor\ProceduralImageEditor.cs" />
     <Compile Include="Assets\ProceduralUIImage\Editor\ProceduralImageEditorUtility.cs" />
+    <Compile Include="Assets\Switch\Editor\CreateSwtich.cs" />
+    <Compile Include="Assets\Switch\Editor\SwitchEditor.cs" />
     <Compile Include="Assets\unity-ui-extensions\Editor\AccordionElementEditor.cs" />
     <Compile Include="Assets\unity-ui-extensions\Editor\BoxSliderEditor.cs" />
     <Compile Include="Assets\unity-ui-extensions\Editor\CanvasGroupActivator.cs" />
@@ -73,19 +75,18 @@
     <None Include="Assets\unity-ui-extensions\Shaders\UISoftAdditive.shader" />
     <None Include="Assets\ProceduralUIImage\Shaders\ProceduralImageRuntime.shader" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIParticleHidden.shader" />
+    <None Include="Assets\Plugins\Newtonsoft.Json.10.0.2\lib\net20\Newtonsoft.Json.xml" />
     <None Include="Assets\unity-ui-extensions\Shaders\SoftMaskShader.shader" />
     <None Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\SurrogatesReadMe.txt" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values-v21\styles.xml" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIImageCrop.shader" />
     <None Include="Assets\unity-ui-extensions\Shaders\UILinearDodge.shader" />
+    <None Include="Assets\Switch\Resources\Textures\README.txt" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIMultiply.shader" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values\styles.xml" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\AndroidManifest.xml" />
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -109,9 +110,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -148,6 +146,9 @@
     </Reference>
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>/Users/yanngodeau/Desktop/PET_Unity/Assets/Plugins/Newtonsoft.Json.10.0.2/lib/net20/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
