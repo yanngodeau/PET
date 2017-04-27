@@ -31,7 +31,7 @@ public class ConnectionScript : MonoBehaviour
             Rpi.SetPort(Port.text);
             Rpi.SetLogin(Login.text);
             Rpi.SetPass(Pass.text);
-          //  Rpi.CreateDeviceList();
+            Rpi.CreateDeviceList();
             SceneManager.LoadScene(1);
         }
         else

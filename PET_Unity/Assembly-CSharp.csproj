@@ -67,12 +67,13 @@
     <Compile Include="Assets\ProceduralUIImage\Scripts\ProceduralImage.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\ProceduralImageModifier.cs" />
     <Compile Include="Assets\Scripts\ConnectionScript.cs" />
-    <Compile Include="Assets\Scripts\Device.cs" />
     <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\Interface\ScrollSnapRect.cs" />
     <Compile Include="Assets\Scripts\Interface\TextColor.cs" />
     <Compile Include="Assets\Scripts\Raspberry.cs" />
+      <Compile Include="Assets\Scripts\Result.cs"/>
+      <Compile Include="Assets\Scripts\RootObject.cs"/>
     <Compile Include="Assets\unity-ui-extensions\Examples\UIVerticalScrollerDemo\Scripts\ScrollingCalendar.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\testHref.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Accordion\Accordion.cs" />

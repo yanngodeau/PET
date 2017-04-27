@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using Newtonsoft.Json;
 using UnityEngine;
 
@@ -13,7 +12,7 @@ public class Raspberry : MonoBehaviour
     private String _pass;
     private String _ip;
     private String _port;
-    private List<Device> _deviceslist;
+    private RootObject _root; // RootObject du retour json
 
     void Awake()
     {
@@ -72,14 +71,15 @@ public class Raspberry : MonoBehaviour
 
 
     /// <summary>
-    ///
+    /// Initialisation de la liste des devices à partir du retour JSON
     /// </summary>
     public void CreateDeviceList()
     {
         String url = GetUrl() + "/json.htm?type=devices";
         WWW www = Get(url);
-        _deviceslist = JsonConvert.DeserializeObject<List<Device>>(www.text);
-        Debug.Log(_deviceslist);
+
+        _root = JsonConvert.DeserializeObject<RootObject>(www.text);
+        Debug.Log(_root);
     }
 
     private WWW Get(string url)
