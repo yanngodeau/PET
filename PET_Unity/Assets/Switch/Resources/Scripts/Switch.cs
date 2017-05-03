@@ -17,8 +17,9 @@ namespace UnityEngine.UI
     {
         [Serializable]
         public class ToggleEvent : UnityEvent<bool>
-        { }
-        
+        {
+        }
+
         /// <summary>
         /// Is a tweening animation playing at the moment?
         /// </summary>
@@ -27,10 +28,12 @@ namespace UnityEngine.UI
         /// <summary>
         /// Dictionary containing references to On and Off Text elements.
         /// </summary>
-        [SerializeField]
-        private Dictionary<string, Text> m_OnOffText = new Dictionary<string, Text>(){
-            {"ON", null}, {"OFF", null}
+        [SerializeField] private Dictionary<string, Text> m_OnOffText = new Dictionary<string, Text>()
+        {
+            {"ON", null},
+            {"OFF", null}
         };
+
         public Dictionary<string, Text> OnOffText
         {
             get
@@ -50,24 +53,26 @@ namespace UnityEngine.UI
         /// <summary>
         /// Total duration of a state transition in seconds.
         /// </summary>
-        [Range(0.01f,5)]
-        public float TransitionDuration = 0.2f;
+        [Range(0.01f, 5)] public float TransitionDuration = 0.2f;
 
         /// <summary>
         /// [0] -> Label's colour when selected
         /// [1] -> Label's colour when unselected
         /// </summary>
-        public Color[] m_textColor = new Color[2]{
+        public Color[] m_textColor = new Color[2]
+        {
             new Color(.863f, .863f, .863f, 1f), //Selected
-            new Color(.392f, .392f, .392f, 1f)  //Unselected
+            new Color(.392f, .392f, .392f, 1f) //Unselected
         };
+
         /// <summary>
         /// [0] -> "Selected" panel's colour when position is On
         /// [1] -> "Selected" panel's colour when position is Off
         /// </summary>
-        public Color[] PanelColor = new Color[2]{
+        public Color[] PanelColor = new Color[2]
+        {
             new Color(.188f, .729f, .172f, 1f), //On
-            new Color( .78f,  .38f, .333f, 1f)  //Off
+            new Color(.78f, .38f, .333f, 1f) //Off
         };
 
         /// <summary>
@@ -84,6 +89,7 @@ namespace UnityEngine.UI
         /// The graphic element panel changing colour positionned under the selected On or Off label.
         /// </summary>
         private RectTransform m_selectPanel;
+
         public RectTransform selectedPanel
         {
             get
@@ -109,14 +115,14 @@ namespace UnityEngine.UI
         public ToggleEvent onValueChanged = new ToggleEvent();
 
         // Whether the toggle is on
-        [Tooltip("Is the toggle currently on or off?")]
-        [SerializeField]
-        private bool m_IsOn;
+        [Tooltip("Is the toggle currently on or off?")] [SerializeField] private bool m_IsOn;
 
         protected Switch()
-	        { }
+        {
+        }
 
 #if UNITY_EDITOR
+
         protected override void OnValidate()
         {
             base.OnValidate();
@@ -129,6 +135,7 @@ namespace UnityEngine.UI
             if (prefabType != UnityEditor.PrefabType.Prefab && !Application.isPlaying)
                 CanvasUpdateRegistry.RegisterCanvasElementForLayoutRebuild(this);
         }
+
 #endif
 
         public virtual void Rebuild(CanvasUpdate executing)
@@ -139,11 +146,13 @@ namespace UnityEngine.UI
 #endif
         }
 
-	    public virtual void LayoutComplete()
-	    {}
+        public virtual void LayoutComplete()
+        {
+        }
 
-	    public virtual void GraphicUpdateComplete()
-	    {}
+        public virtual void GraphicUpdateComplete()
+        {
+        }
 
         protected override void OnEnable()
         {
@@ -157,10 +166,7 @@ namespace UnityEngine.UI
         public bool isOn
         {
             get { return m_IsOn; }
-            set
-            {
-                Set(value);
-            }
+            set { Set(value); }
         }
 
         void Set(bool value)
@@ -234,7 +240,7 @@ namespace UnityEngine.UI
         /// Sets all animated elements with their new tweening values.
         /// </summary>
         /// <param name="CompletionRatio"></param>
-        private void ToggleState (float CompletionRatio)
+        private void ToggleState(float CompletionRatio)
         {
             //If no "selected" image exist or this element is not interactable, we stop there.
             if (!graphic || !interactable)
@@ -243,24 +249,27 @@ namespace UnityEngine.UI
             //If the transition is not none we need to get the tweening value.
             if (toggleTransition != Ease.None)
             {
-                CompletionRatio = Tween.Equations.methods[(int)toggleTransition](CompletionRatio * TransitionDuration, 0, 1, TransitionDuration);
+                CompletionRatio = Tween.Equations.methods[(int) toggleTransition](CompletionRatio * TransitionDuration,
+                    0, 1, TransitionDuration);
             }
 
             selectedPanel.SetInsetAndSizeFromParentEdge(isOn ? RectTransform.Edge.Left : RectTransform.Edge.Right,
-                                                        selectedPanel.rect.width * (1 - CompletionRatio) + 3f,
-                                                        selectedPanel.rect.width);
+                selectedPanel.rect.width * (1 - CompletionRatio) + 3f,
+                selectedPanel.rect.width);
             graphic.color = Color.Lerp(PanelColor[isOn ? 1 : 0],
-                                       PanelColor[isOn ? 0 : 1],
-                                       CompletionRatio);
+                PanelColor[isOn ? 0 : 1],
+                CompletionRatio);
 
             //If one of the two labels is missing we forget this last part
             if (!OnOffText.Values.Contains(null))
             {
-                OnOffText["ON"].color = Color.Lerp(m_textColor[isOn ? 1 : 0], m_textColor[isOn ? 0 : 1], CompletionRatio);
-                OnOffText["OFF"].color = Color.Lerp(m_textColor[isOn ? 0 : 1], m_textColor[isOn ? 1 : 0], CompletionRatio);
+                OnOffText["ON"].color = Color.Lerp(m_textColor[isOn ? 1 : 0], m_textColor[isOn ? 0 : 1],
+                    CompletionRatio);
+                OnOffText["OFF"].color = Color.Lerp(m_textColor[isOn ? 0 : 1], m_textColor[isOn ? 1 : 0],
+                    CompletionRatio);
             }
         }
-        
+
         /// <summary>
         /// Inbetweening IEnumerator
         /// </summary>

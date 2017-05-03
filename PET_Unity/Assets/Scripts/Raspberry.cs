@@ -82,7 +82,7 @@ public class Raspberry : MonoBehaviour
         Debug.Log(_root);
     }
 
-    private WWW Get(string url)
+    public WWW Get(string url)
     {
         WWW www = new WWW(url);
 

@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>24865</unityProcessId>
+    <unityProcessId>503</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -66,6 +66,7 @@
     <Compile Include="Assets\ProceduralUIImage\Scripts\Modifiers\UniformModifier.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\ProceduralImage.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\ProceduralImageModifier.cs" />
+    <Compile Include="Assets\Scripts\ButtonSwitch.cs" />
     <Compile Include="Assets\Scripts\ConnectionScript.cs" />
     <Compile Include="Assets\Scripts\Interface\ActivatePanel.cs" />
     <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
@@ -241,7 +242,7 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>/Users/yanngodeau/Desktop/PET_Unity/Assets/Plugins/Newtonsoft.Json.10.0.2/lib/net20/Newtonsoft.Json.dll</HintPath>
+      <HintPath>/Users/yanngodeau/PET/PET_Unity/Assets/Plugins/Newtonsoft.Json.10.0.2/lib/net20/Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9f16703-e1f0-4f67-9518-899000f50e43" name="Default" comment="" />
+    <list default="true" id="e9f16703-e1f0-4f67-9518-899000f50e43" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonSwitch.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/32/32188fd89022c154c81befa2f0e00be0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/32/32188fd89022c154c81befa2f0e00be0.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/69/6981461fe431401459211818212a29cf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/69/6981461fe431401459211818212a29cf.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d0/d05b96cee66e14240838de167097537a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d0/d05b96cee66e14240838de167097537a.info" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneConnexion.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneConnexion.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneMaison.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneMaison.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/1d/1d3ce867c4bdc254e84fc95bdd194801" afterPath="$PROJECT_DIR$/Library/metadata/1d/1d3ce867c4bdc254e84fc95bdd194801" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/40/405377b136f41fa46b6293313ad47c16" afterPath="$PROJECT_DIR$/Library/metadata/40/405377b136f41fa46b6293313ad47c16" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/59/599622faadc00984397f0f934ad48d26" afterPath="$PROJECT_DIR$/Library/metadata/59/599622faadc00984397f0f934ad48d26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/7f/7fee2f098790ebd4e914db1341552072" afterPath="$PROJECT_DIR$/Library/metadata/7f/7fee2f098790ebd4e914db1341552072" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ba/ba2b8b6f0ce640648acc31af0a5195e2" afterPath="$PROJECT_DIR$/Library/metadata/ba/ba2b8b6f0ce640648acc31af0a5195e2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/c0/c05fe5bee9bcc4017b5c283e00ae1a0a" afterPath="$PROJECT_DIR$/Library/metadata/c0/c05fe5bee9bcc4017b5c283e00ae1a0a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/cb/cb2a138ed87751e4a8c6a1588773061f" afterPath="$PROJECT_DIR$/Library/metadata/cb/cb2a138ed87751e4a8c6a1588773061f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ce/cea0cb947d2651445b712c1df9a253eb" afterPath="$PROJECT_DIR$/Library/metadata/ce/cea0cb947d2651445b712c1df9a253eb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.PET_Unity/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.PET_Unity/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.PET_Unity/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.PET_Unity/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/ButtonText.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Interface/ButtonText.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/ChangeScene.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Interface/ChangeScene.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/ScrollSnapRect.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Interface/ScrollSnapRect.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/TextColor.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Interface/TextColor.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Raspberry.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Raspberry.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs" afterPath="$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PET_Unity.Editor.Plugins.csproj" afterPath="$PROJECT_DIR$/PET_Unity.Editor.Plugins.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PET_Unity.Editor.csproj" afterPath="$PROJECT_DIR$/PET_Unity.Editor.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PET_Unity.csproj" afterPath="$PROJECT_DIR$/PET_Unity.csproj" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,18 +62,128 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Result.cs" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Result.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Result.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-142">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1493311406000" expanded="true" signature="35:91" ph="/// Description d'un device ... " />
+                <marker date="1493311406000" expanded="true" signature="111:2273" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonSwitch.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonSwitch.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <marker date="1493825919000" expanded="true" signature="6:77" ph="..." />
+                <marker date="1493825919000" expanded="true" signature="116:1407" ph="{...}" />
+                <marker date="1493825919000" expanded="true" signature="273:369" ph="{...}" />
+                <marker date="1493825919000" expanded="true" signature="395:696" ph="{...}" />
+                <marker date="1493825919000" expanded="true" signature="724:909" ph="{...}" />
+                <marker date="1493825919000" expanded="true" signature="938:1124" ph="{...}" />
+                <marker date="1493825919000" expanded="true" signature="1154:1405" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionScript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-654">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1493311406000" expanded="true" signature="6:115" ph="..." />
+                <marker date="1493311406000" expanded="true" signature="117:249" ph="/// Cette classe gère la connexion avec le Raspberry. ... " />
+                <marker date="1493311406000" expanded="true" signature="295:2405" ph="{...}" />
+                <marker date="1493311406000" expanded="true" signature="567:731" ph="/// Onclick du bouton connexion de la page connextion. ... " />
+                <marker date="1493311406000" expanded="true" signature="759:1277" ph="{...}" />
+                <marker date="1493311406000" expanded="true" signature="846:1125" ph="{...}" />
+                <marker date="1493311406000" expanded="true" signature="1138:1271" ph="{...}" />
+                <marker date="1493311406000" expanded="true" signature="1283:1533" ph="/// Test la connexion avec le raspberry ... " />
+                <marker date="1493311406000" expanded="true" signature="1586:1754" ph="{...}" />
+                <marker date="1493311406000" expanded="true" signature="1761:1900" ph="/// Permet d'envoyer la requete http ... " />
+                <marker date="1493311406000" expanded="true" signature="1932:2328" ph="{...}" />
+                <marker date="1493311406000" expanded="true" signature="2083:2103" ph="{...}" />
+                <marker date="1493311406000" expanded="true" signature="2149:2218" ph="{...}" />
+                <marker date="1493311406000" expanded="true" signature="2231:2301" ph="{...}" />
+                <marker date="1493311406000" expanded="true" signature="2365:2403" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootObject.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RootObject.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1493311406000" expanded="true" signature="58:343" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Raspberry.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raspberry.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="80" column="68" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="68" />
+              <folding>
+                <marker date="1493822342000" expanded="true" signature="6:81" ph="..." />
+                <marker date="1493822342000" expanded="true" signature="83:115" ph="/// ... " />
+                <marker date="1493822342000" expanded="true" signature="154:1995" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="336:397" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="427:462" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="491:525" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="552:584" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="613:647" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="688:724" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="762:796" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="830:860" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="898:932" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="938:1058" ph="/// Retourne l'url du raspberry ... " />
+                <marker date="1493822342000" expanded="true" signature="1085:1151" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="1158:1261" ph="/// Initialisation de la liste des devices à partir du retour JSON ... " />
+                <marker date="1493822342000" expanded="true" signature="1296:1490" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="1522:1918" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="1673:1693" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="1739:1808" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="1821:1891" ph="{...}" />
+                <marker date="1493822342000" expanded="true" signature="1955:1993" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>isOn</find>
+      <find>OnVa</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raspberry.cs" />
+        <option value="$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ToggleButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonSwitch.cs" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -33,8 +194,9 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="716" />
+    <option name="height" value="720" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -59,7 +221,61 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Loading solution..." />
+              <option name="myItemId" value="PET_Unity (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PET_Unity (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PET_Unity (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PET_Unity (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -97,6 +313,48 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="PROJECT_PATH" value="" />
       <option name="PROJECT_KIND" value="None" />
@@ -124,36 +382,50 @@
       <option name="presentableId" value="Default" />
       <updated>1493313330613</updated>
       <workItem from="1493313337727" duration="8000" />
+      <workItem from="1493732755421" duration="126000" />
+      <workItem from="1493732890511" duration="2862000" />
+      <workItem from="1493816370184" duration="1183000" />
+      <workItem from="1493818966478" duration="5047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8000" />
+    <option name="totallyTimeSpent" value="9226000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="720" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -164,15 +436,301 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Result.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ToggleButton.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493311406000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493311406000" expanded="true" signature="117:249" ph="/// Cette classe gère la connexion avec le Raspberry. ... " />
+            <marker date="1493311406000" expanded="true" signature="295:2405" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="567:731" ph="/// Onclick du bouton connexion de la page connextion. ... " />
+            <marker date="1493311406000" expanded="true" signature="759:1277" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="846:1125" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="1138:1271" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="1283:1533" ph="/// Test la connexion avec le raspberry ... " />
+            <marker date="1493311406000" expanded="true" signature="1586:1754" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="1761:1900" ph="/// Permet d'envoyer la requete http ... " />
+            <marker date="1493311406000" expanded="true" signature="1932:2328" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="2083:2103" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="2149:2218" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="2231:2301" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="2365:2403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RootObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493311406000" expanded="true" signature="58:343" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raspberry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1493822342000" expanded="true" signature="6:81" ph="..." />
+            <marker date="1493822342000" expanded="true" signature="83:115" ph="/// ... " />
+            <marker date="1493822342000" expanded="true" signature="154:1995" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="336:397" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="427:462" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="491:525" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="552:584" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="613:647" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="688:724" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="762:796" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="830:860" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="898:932" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="938:1058" ph="/// Retourne l'url du raspberry ... " />
+            <marker date="1493822342000" expanded="true" signature="1085:1151" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1158:1261" ph="/// Initialisation de la liste des devices à partir du retour JSON ... " />
+            <marker date="1493822342000" expanded="true" signature="1296:1490" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1522:1918" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1673:1693" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1739:1808" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1821:1891" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1955:1993" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ToggleButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RootObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493311406000" expanded="true" signature="58:343" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raspberry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="84" column="14" lean-forward="false" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+          <folding>
+            <marker date="1493822342000" expanded="true" signature="6:81" ph="..." />
+            <marker date="1493822342000" expanded="true" signature="83:115" ph="/// ... " />
+            <marker date="1493822342000" expanded="true" signature="154:1995" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="336:397" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="427:462" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="491:525" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="552:584" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="613:647" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="688:724" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="762:796" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="830:860" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="898:932" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="938:1058" ph="/// Retourne l'url du raspberry ... " />
+            <marker date="1493822342000" expanded="true" signature="1085:1151" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1158:1261" ph="/// Initialisation de la liste des devices à partir du retour JSON ... " />
+            <marker date="1493822342000" expanded="true" signature="1296:1490" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1522:1918" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1673:1693" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1739:1808" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1821:1891" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1955:1993" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Result.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ConnectionScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-654">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493311406000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1493311406000" expanded="true" signature="117:249" ph="/// Cette classe gère la connexion avec le Raspberry. ... " />
+            <marker date="1493311406000" expanded="true" signature="295:2405" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="567:731" ph="/// Onclick du bouton connexion de la page connextion. ... " />
+            <marker date="1493311406000" expanded="true" signature="759:1277" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="846:1125" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="1138:1271" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="1283:1533" ph="/// Test la connexion avec le raspberry ... " />
+            <marker date="1493311406000" expanded="true" signature="1586:1754" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="1761:1900" ph="/// Permet d'envoyer la requete http ... " />
+            <marker date="1493311406000" expanded="true" signature="1932:2328" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="2083:2103" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="2149:2218" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="2231:2301" ph="{...}" />
+            <marker date="1493311406000" expanded="true" signature="2365:2403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RootObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493311406000" expanded="true" signature="58:343" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raspberry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="80" column="68" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="68" />
+          <folding>
+            <marker date="1493822342000" expanded="true" signature="6:81" ph="..." />
+            <marker date="1493822342000" expanded="true" signature="83:115" ph="/// ... " />
+            <marker date="1493822342000" expanded="true" signature="154:1995" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="336:397" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="427:462" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="491:525" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="552:584" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="613:647" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="688:724" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="762:796" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="830:860" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="898:932" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="938:1058" ph="/// Retourne l'url du raspberry ... " />
+            <marker date="1493822342000" expanded="true" signature="1085:1151" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1158:1261" ph="/// Initialisation de la liste des devices à partir du retour JSON ... " />
+            <marker date="1493822342000" expanded="true" signature="1296:1490" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1522:1918" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1673:1693" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1739:1808" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1821:1891" ph="{...}" />
+            <marker date="1493822342000" expanded="true" signature="1955:1993" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ToggleButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="947">
+          <caret line="114" column="31" lean-forward="false" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="31" />
+          <folding>
+            <marker date="1493825147000" expanded="false" signature="6:163" ph="..." />
+            <marker date="1493825147000" expanded="true" signature="189:10338" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="196:284" ph="/// Taken largely from toggle.cs (Unity GUI source) ... " />
+            <marker date="1493825147000" expanded="true" signature="461:10336" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="542:562" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="572:667" ph="/// Is a tweening animation playing at the moment? ... " />
+            <marker date="1493825147000" expanded="true" signature="717:827" ph="/// Dictionary containing references to On and Off Text elements. ... " />
+            <marker date="1493825147000" expanded="true" signature="939:1002" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="1054:1506" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="1080:1496" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="1149:1446" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="1243:1428" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="1516:1613" ph="/// Total duration of a state transition in seconds. ... " />
+            <marker date="1493825147000" expanded="true" signature="1689:1823" ph="/// [0] -&gt; Label's colour when selected ... " />
+            <marker date="1493825147000" expanded="true" signature="1882:2012" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="2023:2190" ph="/// [0] -&gt; &quot;Selected&quot; panel's colour when position is On ... " />
+            <marker date="1493825147000" expanded="true" signature="2248:2363" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="2374:2439" ph="/// Transition type. ... " />
+            <marker date="1493825147000" expanded="true" signature="2501:2592" ph="/// Graphic the toggle should be working with. ... " />
+            <marker date="1493825147000" expanded="true" signature="2632:2770" ph="/// The graphic element panel changing colour positionned under the selected On or Off label. ... " />
+            <marker date="1493825147000" expanded="true" signature="2859:3317" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="2885:3307" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="2965:3255" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="3007:3130" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="3177:3237" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="3327:3491" ph="/// Allow for delegate-based subscriptions for faster events than 'eventReceiver', and allowing for multiple rece ... " />
+            <marker date="1493825147000" expanded="true" signature="3713:3733" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="3797:4219" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="4288:4432" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="4478:4498" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="4551:4571" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="4615:4692" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="4702:4790" ph="/// Whether the toggle is currently active. ... " />
+            <marker date="1493825147000" expanded="true" signature="4815:4902" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="4932:4982" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="5031:5602" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="5141:5460" ph="/* Always send event when toggle is clicked, even if value didn't change ... */" />
+            <marker date="1493825147000" expanded="true" signature="5612:5689" ph="/// Play the appropriate effect. ... " />
+            <marker date="1493825147000" expanded="true" signature="5735:5949" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="5959:6040" ph="/// Assume the correct visual state. ... " />
+            <marker date="1493825147000" expanded="true" signature="6080:6128" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="6167:6288" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="6298:6363" ph="/// React to clicks. ... " />
+            <marker date="1493825147000" expanded="true" signature="6434:6580" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="6643:6693" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="6703:6861" ph="/// Sets all animated elements with their new tweening values. ... " />
+            <marker date="1493825147000" expanded="true" signature="6917:8233" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="7216:7411" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="7908:8223" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="8243:8348" ph="/// Inbetweening IEnumerator ... " />
+            <marker date="1493825147000" expanded="true" signature="8387:9530" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="8730:8888" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="9117:9460" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="9540:9669" ph="/// DoStateTransition is overidden to apply disabled effect on the &quot;selected&quot; image. ... " />
+            <marker date="1493825147000" expanded="true" signature="9755:10330" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="9919:10084" ph="{...}" />
+            <marker date="1493825147000" expanded="true" signature="10157:10320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Result.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493311406000" expanded="true" signature="35:91" ph="/// Description d'un device ... " />
+            <marker date="1493311406000" expanded="true" signature="111:2273" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonSwitch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1493825919000" expanded="true" signature="6:77" ph="..." />
+            <marker date="1493825919000" expanded="true" signature="116:1407" ph="{...}" />
+            <marker date="1493825919000" expanded="true" signature="273:369" ph="{...}" />
+            <marker date="1493825919000" expanded="true" signature="395:696" ph="{...}" />
+            <marker date="1493825919000" expanded="true" signature="724:909" ph="{...}" />
+            <marker date="1493825919000" expanded="true" signature="938:1124" ph="{...}" />
+            <marker date="1493825919000" expanded="true" signature="1154:1405" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
