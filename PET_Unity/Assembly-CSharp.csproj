@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>3393</unityProcessId>
+    <unityProcessId>5004</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -56,6 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ActiverPanel.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\Attributes\ModifierID.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\EmptySprite.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\MaterialHelper.cs" />
@@ -70,7 +71,10 @@
     <Compile Include="Assets\Scripts\ConnectionScript.cs" />
     <Compile Include="Assets\Scripts\Interface\ActivatePanel.cs" />
     <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
+    <Compile Include="Assets\Scripts\Interface\ChangeButtonColor.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\Interface\DropdownPanel.cs" />
+    <Compile Include="Assets\Scripts\Interface\DropdownPanelAuto.cs" />
     <Compile Include="Assets\Scripts\Interface\ScrollSnapRect.cs" />
     <Compile Include="Assets\Scripts\Interface\TextColor.cs" />
     <Compile Include="Assets\Scripts\Raspberry.cs" />
@@ -223,9 +227,6 @@
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values\styles.xml" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\AndroidManifest.xml" />
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -237,9 +238,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>

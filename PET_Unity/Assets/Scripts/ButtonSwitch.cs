@@ -7,15 +7,14 @@ public class ButtonSwitch : Raspberry
 {
     private const string Ip = "172.20.10.10";
     private const string Port = "8080";
-    public Switch Swt;
     public int Idx;
+    public Button Btn;
+    public Color ColorOn;
+    public Color ColorOff;
 
-    private void Start()
+    private void Awake()
     {
-        if (DeviceIsOn())
-            Swt.OnPointerClick();
-        else
-            Swt.OnPointerClick();
+        Btn.image.color = DeviceIsOn() ? ColorOn : ColorOff;
     }
 
     public void Toggle()

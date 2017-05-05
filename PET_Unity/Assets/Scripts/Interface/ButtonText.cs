@@ -4,18 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ButtonText : MonoBehaviour, ISelectHandler, IDeselectHandler {
+public class ButtonText : MonoBehaviour {
 
-    public Text textui;
+    public bool TextOn;
+    public Text MyText;
+    public Color ColorOff;
+    public Color ColorOn;
 
-	void ISelectHandler.OnSelect(BaseEventData eventData)
+    public void BeenClicked()
     {
-        textui.color = new Color(1f, 0.2f, 0.2f);
-
-    }
-
-    void IDeselectHandler.OnDeselect(BaseEventData eventData)
-    {
-        textui.color = Color.black;
+        TextOn = !TextOn;
+        MyText.color = TextOn ? ColorOn : ColorOff;
     }
 }
