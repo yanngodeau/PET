@@ -2,53 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9f16703-e1f0-4f67-9518-899000f50e43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonSwitch.cs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/32/32188fd89022c154c81befa2f0e00be0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/32/32188fd89022c154c81befa2f0e00be0.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/69/6981461fe431401459211818212a29cf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/69/6981461fe431401459211818212a29cf.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d0/d05b96cee66e14240838de167097537a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/d0/d05b96cee66e14240838de167097537a.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneAutomatisationModuleBleu.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneAutomatisationModuleBleu.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneAutomatisationModuleGris.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneAutomatisationModuleGris.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneAutomatisationModuleRouge.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneAutomatisationModuleRouge.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneAutomatisationModuleVert.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneAutomatisationModuleVert.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneAutomatisation.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneAutomatisation.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneConnexion.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneConnexion.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneConsommation.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneConsommation.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneMaison.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneMaison.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneSettings.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneSettings.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneType.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneType.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/1d/1d3ce867c4bdc254e84fc95bdd194801" afterPath="$PROJECT_DIR$/Library/metadata/1d/1d3ce867c4bdc254e84fc95bdd194801" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/40/405377b136f41fa46b6293313ad47c16" afterPath="$PROJECT_DIR$/Library/metadata/40/405377b136f41fa46b6293313ad47c16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/59/599622faadc00984397f0f934ad48d26" afterPath="$PROJECT_DIR$/Library/metadata/59/599622faadc00984397f0f934ad48d26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/7f/7fee2f098790ebd4e914db1341552072" afterPath="$PROJECT_DIR$/Library/metadata/7f/7fee2f098790ebd4e914db1341552072" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ba/ba2b8b6f0ce640648acc31af0a5195e2" afterPath="$PROJECT_DIR$/Library/metadata/ba/ba2b8b6f0ce640648acc31af0a5195e2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/c0/c05fe5bee9bcc4017b5c283e00ae1a0a" afterPath="$PROJECT_DIR$/Library/metadata/c0/c05fe5bee9bcc4017b5c283e00ae1a0a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/cb/cb2a138ed87751e4a8c6a1588773061f" afterPath="$PROJECT_DIR$/Library/metadata/cb/cb2a138ed87751e4a8c6a1588773061f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/2f/2f0faef33db2d2646b76fa8ace555dd3" afterPath="$PROJECT_DIR$/Library/metadata/2f/2f0faef33db2d2646b76fa8ace555dd3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/32/3291f5758f7a51240b61dc22d1bc2e2d" afterPath="$PROJECT_DIR$/Library/metadata/32/3291f5758f7a51240b61dc22d1bc2e2d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/32/3291f5758f7a51240b61dc22d1bc2e2d.info" afterPath="$PROJECT_DIR$/Library/metadata/32/3291f5758f7a51240b61dc22d1bc2e2d.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/74/745efab1782a26640ab096329aeb00ca" afterPath="$PROJECT_DIR$/Library/metadata/74/745efab1782a26640ab096329aeb00ca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/74/745efab1782a26640ab096329aeb00ca.info" afterPath="$PROJECT_DIR$/Library/metadata/74/745efab1782a26640ab096329aeb00ca.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/81/812de103ad7068b448bc6e16746e5ec8" afterPath="$PROJECT_DIR$/Library/metadata/81/812de103ad7068b448bc6e16746e5ec8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/82/8279bdc22a032af4583f181fa93fe567" afterPath="$PROJECT_DIR$/Library/metadata/82/8279bdc22a032af4583f181fa93fe567" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/be/be5bb91c50f31dc4f9db893736aa6759" afterPath="$PROJECT_DIR$/Library/metadata/be/be5bb91c50f31dc4f9db893736aa6759" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/be/be5bb91c50f31dc4f9db893736aa6759.info" afterPath="$PROJECT_DIR$/Library/metadata/be/be5bb91c50f31dc4f9db893736aa6759.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/c1/c17bacfbe81268f4c8ebaeab0c1a2fb4" afterPath="$PROJECT_DIR$/Library/metadata/c1/c17bacfbe81268f4c8ebaeab0c1a2fb4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ce/cea0cb947d2651445b712c1df9a253eb" afterPath="$PROJECT_DIR$/Library/metadata/ce/cea0cb947d2651445b712c1df9a253eb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/e9/e9205771f2b6aed4889139f96f8d30f2" afterPath="$PROJECT_DIR$/Library/metadata/e9/e9205771f2b6aed4889139f96f8d30f2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/e9/e9205771f2b6aed4889139f96f8d30f2.info" afterPath="$PROJECT_DIR$/Library/metadata/e9/e9205771f2b6aed4889139f96f8d30f2.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.PET_Unity/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.PET_Unity/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.PET_Unity/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.PET_Unity/riderModule.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SceneMaison.unity.meta" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneMaison.unity.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonSwitch.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonSwitch.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/ButtonText.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Interface/ButtonText.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/ChangeScene.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Interface/ChangeScene.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/ScrollSnapRect.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Interface/ScrollSnapRect.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/TextColor.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Interface/TextColor.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Raspberry.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Raspberry.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs" afterPath="$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PET_Unity.Editor.Plugins.csproj" afterPath="$PROJECT_DIR$/PET_Unity.Editor.Plugins.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PET_Unity.Editor.csproj" afterPath="$PROJECT_DIR$/PET_Unity.Editor.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PET_Unity.csproj" afterPath="$PROJECT_DIR$/PET_Unity.csproj" />
@@ -76,19 +74,195 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonSwitch.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ButtonSwitch.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonSwitch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="154">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <marker date="1493825919000" expanded="true" signature="6:77" ph="..." />
-                <marker date="1493825919000" expanded="true" signature="116:1407" ph="{...}" />
-                <marker date="1493825919000" expanded="true" signature="273:369" ph="{...}" />
-                <marker date="1493825919000" expanded="true" signature="395:696" ph="{...}" />
-                <marker date="1493825919000" expanded="true" signature="724:909" ph="{...}" />
-                <marker date="1493825919000" expanded="true" signature="938:1124" ph="{...}" />
-                <marker date="1493825919000" expanded="true" signature="1154:1405" ph="{...}" />
+                <marker date="1493830357000" expanded="true" signature="6:77" ph="..." />
+                <marker date="1493830357000" expanded="true" signature="116:1318" ph="{...}" />
+                <marker date="1493830357000" expanded="true" signature="273:392" ph="{...}" />
+                <marker date="1493830357000" expanded="true" signature="418:607" ph="{...}" />
+                <marker date="1493830357000" expanded="true" signature="635:820" ph="{...}" />
+                <marker date="1493830357000" expanded="true" signature="849:1035" ph="{...}" />
+                <marker date="1493830357000" expanded="true" signature="1065:1316" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Switch.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3546">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <marker date="1493829973000" expanded="true" signature="6:163" ph="..." />
+                <marker date="1493829973000" expanded="true" signature="189:10338" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="196:284" ph="/// Taken largely from toggle.cs (Unity GUI source) ... " />
+                <marker date="1493829973000" expanded="true" signature="461:10336" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="542:562" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="572:667" ph="/// Is a tweening animation playing at the moment? ... " />
+                <marker date="1493829973000" expanded="true" signature="717:827" ph="/// Dictionary containing references to On and Off Text elements. ... " />
+                <marker date="1493829973000" expanded="true" signature="939:1002" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="1054:1506" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="1080:1496" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="1149:1446" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="1243:1428" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="1516:1613" ph="/// Total duration of a state transition in seconds. ... " />
+                <marker date="1493829973000" expanded="true" signature="1689:1823" ph="/// [0] -&gt; Label's colour when selected ... " />
+                <marker date="1493829973000" expanded="true" signature="1882:2012" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="2023:2190" ph="/// [0] -&gt; &quot;Selected&quot; panel's colour when position is On ... " />
+                <marker date="1493829973000" expanded="true" signature="2248:2363" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="2374:2439" ph="/// Transition type. ... " />
+                <marker date="1493829973000" expanded="true" signature="2501:2592" ph="/// Graphic the toggle should be working with. ... " />
+                <marker date="1493829973000" expanded="true" signature="2632:2770" ph="/// The graphic element panel changing colour positionned under the selected On or Off label. ... " />
+                <marker date="1493829973000" expanded="true" signature="2859:3317" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="2885:3307" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="2965:3255" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="3007:3130" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="3177:3237" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="3327:3491" ph="/// Allow for delegate-based subscriptions for faster events than 'eventReceiver', and allowing for multiple rece ... " />
+                <marker date="1493829973000" expanded="true" signature="3713:3733" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="3797:4219" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="4288:4432" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="4478:4498" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="4551:4571" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="4615:4692" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="4702:4790" ph="/// Whether the toggle is currently active. ... " />
+                <marker date="1493829973000" expanded="true" signature="4815:4902" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="4932:4982" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="5031:5602" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="5141:5460" ph="/* Always send event when toggle is clicked, even if value didn't change ... */" />
+                <marker date="1493829973000" expanded="true" signature="5612:5689" ph="/// Play the appropriate effect. ... " />
+                <marker date="1493829973000" expanded="true" signature="5735:5949" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="5959:6040" ph="/// Assume the correct visual state. ... " />
+                <marker date="1493829973000" expanded="true" signature="6080:6128" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="6167:6288" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="6298:6363" ph="/// React to clicks. ... " />
+                <marker date="1493829973000" expanded="true" signature="6434:6580" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="6643:6693" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="6703:6861" ph="/// Sets all animated elements with their new tweening values. ... " />
+                <marker date="1493829973000" expanded="true" signature="6917:8233" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="7216:7411" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="7908:8223" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="8243:8348" ph="/// Inbetweening IEnumerator ... " />
+                <marker date="1493829973000" expanded="true" signature="8387:9530" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="8730:8888" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="9117:9460" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="9540:9669" ph="/// DoStateTransition is overidden to apply disabled effect on the &quot;selected&quot; image. ... " />
+                <marker date="1493829973000" expanded="true" signature="9755:10330" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="9919:10084" ph="{...}" />
+                <marker date="1493829973000" expanded="true" signature="10157:10320" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tweening.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Tweening.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2950">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1493313701000" expanded="true" signature="89:30950" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="112:1255" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="1283:30948" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="1300:1522" ph="/* TWEENING EQUATIONS floats ------------------------------------------------------------------------------------ ... */" />
+                <marker date="1493313701000" expanded="true" signature="1532:1886" ph="/* Easing equation float for a simple linear tweening, with no easing. ... */" />
+                <marker date="1493313701000" expanded="true" signature="1960:2014" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="2024:2398" ph="/* Easing equation float for a quadratic (t^2) easing in: accelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="2473:2534" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="2544:2917" ph="/* Easing equation float for a quadratic (t^2) easing out: decelerating to zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="2993:3061" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="3071:3463" ph="/* Easing equation float for a quadratic (t^2) easing in/out: acceleration until halfway, then deceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="3541:3678" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="3688:4080" ph="/* Easing equation float for a quadratic (t^2) easing out/in: deceleration until halfway, then acceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="4158:4310" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="4320:4694" ph="/* Easing equation float for a cubic (t^3) easing in: accelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="4770:4835" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="4845:5220" ph="/* Easing equation float for a cubic (t^3) easing out: decelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="5297:5375" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="5385:5777" ph="/* Easing equation float for a cubic (t^3) easing in/out: acceleration until halfway, then deceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="5856:5995" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="6005:6397" ph="/* Easing equation float for a cubic (t^3) easing out/in: deceleration until halfway, then acceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="6476:6630" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="6640:7044" ph="/* Easing equation float for a quartic (t^4) easing in: accelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="7120:7189" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="7199:7604" ph="/* Easing equation float for a quartic (t^4) easing out: decelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="7681:7764" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="7774:8196" ph="/* Easing equation float for a quartic (t^4) easing in/out: acceleration until halfway, then deceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="8275:8423" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="8433:8855" ph="/* Easing equation float for a quartic (t^4) easing out/in: deceleration until halfway, then acceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="8934:9088" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="9098:9502" ph="/* Easing equation float for a quintic (t^5) easing in: accelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="9578:9651" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="9661:10066" ph="/* Easing equation float for a quintic (t^5) easing out: decelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="10143:10229" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="10239:10661" ph="/* Easing equation float for a quintic (t^5) easing in/out: acceleration until halfway, then deceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="10740:10895" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="10905:11327" ph="/* Easing equation float for a quintic (t^5) easing out/in: deceleration until halfway, then acceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="11406:11560" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="11570:11980" ph="/* Easing equation float for a sinusoidal (sin(t)) easing in: accelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="12055:12142" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="12152:12563" ph="/* Easing equation float for a sinusoidal (sin(t)) easing out: decelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="12639:12721" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="12731:13159" ph="/* Easing equation float for a sinusoidal (sin(t)) easing in/out: acceleration until halfway, then deceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="13237:13324" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="13334:13762" ph="/* Easing equation float for a sinusoidal (sin(t)) easing out/in: deceleration until halfway, then acceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="13840:13992" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="14002:14411" ph="/* Easing equation float for an exponential (2^t) easing in: accelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="14486:14593" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="14603:15013" ph="/* Easing equation float for an exponential (2^t) easing out: decelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="15089:15198" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="15208:15635" ph="/* Easing equation float for an exponential (2^t) easing in/out: acceleration until halfway, then deceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="15713:15973" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="15983:16410" ph="/* Easing equation float for an exponential (2^t) easing out/in: deceleration until halfway, then acceleration. ... */" />
+                <marker date="1493313701000" expanded="true" signature="16488:16640" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="16650:17063" ph="/* Easing equation float for a circular (sqrt(1-t^2)) easing in: accelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="17138:17222" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="17232:17646" ph="/* Easing equation float for a circular (sqrt(1-t^2)) easing out: decelerating from zero velocity. ... */" />
+                <marker date="1493313701000" expanded="true" signature="17722:17806" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="17816:18247" ph="/* Easing equation float for a circular (sqrt(1-t^2)) easing in/out: acceleration until halfway, then deceleratio ... */" />
+                <marker date="1493313701000" expanded="true" signature="18325:18495" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="18505:18936" ph="/* Easing equation float for a circular (sqrt(1-t^2)) easing out/in: deceleration until halfway, then acceleratio ... */" />
+                <marker date="1493313701000" expanded="true" signature="19014:19166" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="19176:19679" ph="/* Easing equation float for an elastic (exponentially decaying sine wave) easing in: accelerating from zero velo ... */" />
+                <marker date="1493313701000" expanded="true" signature="19757:20270" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="19972:20050" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="20067:20155" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="20280:20784" ph="/* Easing equation float for an elastic (exponentially decaying sine wave) easing out: decelerating from zero vel ... */" />
+                <marker date="1493313701000" expanded="true" signature="20863:21373" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="21078:21156" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="21173:21261" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="21383:21904" ph="/* Easing equation float for an elastic (exponentially decaying sine wave) easing in/out: acceleration until half ... */" />
+                <marker date="1493313701000" expanded="true" signature="21985:22641" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="22213:22291" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="22308:22396" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="22651:23172" ph="/* Easing equation float for an elastic (exponentially decaying sine wave) easing out/in: deceleration until half ... */" />
+                <marker date="1493313701000" expanded="true" signature="23253:23411" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="23421:24055" ph="/* Easing equation float for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing in: accelerating from z ... */" />
+                <marker date="1493313701000" expanded="true" signature="24130:24243" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="24253:24888" ph="/* Easing equation float for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing out: decelerating from  ... */" />
+                <marker date="1493313701000" expanded="true" signature="24964:25090" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="25100:25752" ph="/* Easing equation float for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing in/out: acceleration un ... */" />
+                <marker date="1493313701000" expanded="true" signature="25830:26063" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="26073:26725" ph="/* Easing equation float for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing out/in: deceleration un ... */" />
+                <marker date="1493313701000" expanded="true" signature="26803:26955" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="26965:27404" ph="/* Easing equation float for a bounce (exponentially decaying parabolic bounce) easing in: accelerating from zero ... */" />
+                <marker date="1493313701000" expanded="true" signature="27481:27559" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="27569:28009" ph="/* Easing equation float for a bounce (exponentially decaying parabolic bounce) easing out: decelerating from zer ... */" />
+                <marker date="1493313701000" expanded="true" signature="28087:28645" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="28137:28215" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="28253:28358" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="28399:28507" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="28524:28635" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="28655:29112" ph="/* Easing equation float for a bounce (exponentially decaying parabolic bounce) easing in/out: acceleration until ... */" />
+                <marker date="1493313701000" expanded="true" signature="29192:29365" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="29375:29832" ph="/* Easing equation float for a bounce (exponentially decaying parabolic bounce) easing out/in: deceleration until ... */" />
+                <marker date="1493313701000" expanded="true" signature="29912:30068" ph="{...}" />
+                <marker date="1493313701000" expanded="true" signature="30215:30941" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -170,17 +344,23 @@
     <findStrings>
       <find>isOn</find>
       <find>OnVa</find>
+      <find>color</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yanngodeau &lt;yann.godeau@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Raspberry.cs" />
-        <option value="$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ToggleButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonSwitch.cs" />
       </list>
     </option>
@@ -261,6 +441,32 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Switch" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PET_Unity (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Scripts" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
@@ -287,6 +493,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -385,12 +592,20 @@
       <workItem from="1493732755421" duration="126000" />
       <workItem from="1493732890511" duration="2862000" />
       <workItem from="1493816370184" duration="1183000" />
-      <workItem from="1493818966478" duration="5047000" />
+      <workItem from="1493818966478" duration="9083000" />
     </task>
+    <task id="LOCAL-00001" summary="ButtonSwitch : Toggle, SwitchOn, SwitchOff, GetStatus">
+      <created>1493826018976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493826018976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9226000" />
+    <option name="totallyTimeSpent" value="13262000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,7 +634,7 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -435,9 +650,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ButtonSwitch : Toggle, SwitchOn, SwitchOff, GetStatus" />
+    <option name="LAST_COMMIT_MESSAGE" value="ButtonSwitch : Toggle, SwitchOn, SwitchOff, GetStatus" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -641,72 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="114" column="31" lean-forward="false" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="31" />
-          <folding>
-            <marker date="1493825147000" expanded="false" signature="6:163" ph="..." />
-            <marker date="1493825147000" expanded="true" signature="189:10338" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="196:284" ph="/// Taken largely from toggle.cs (Unity GUI source) ... " />
-            <marker date="1493825147000" expanded="true" signature="461:10336" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="542:562" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="572:667" ph="/// Is a tweening animation playing at the moment? ... " />
-            <marker date="1493825147000" expanded="true" signature="717:827" ph="/// Dictionary containing references to On and Off Text elements. ... " />
-            <marker date="1493825147000" expanded="true" signature="939:1002" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="1054:1506" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="1080:1496" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="1149:1446" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="1243:1428" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="1516:1613" ph="/// Total duration of a state transition in seconds. ... " />
-            <marker date="1493825147000" expanded="true" signature="1689:1823" ph="/// [0] -&gt; Label's colour when selected ... " />
-            <marker date="1493825147000" expanded="true" signature="1882:2012" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="2023:2190" ph="/// [0] -&gt; &quot;Selected&quot; panel's colour when position is On ... " />
-            <marker date="1493825147000" expanded="true" signature="2248:2363" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="2374:2439" ph="/// Transition type. ... " />
-            <marker date="1493825147000" expanded="true" signature="2501:2592" ph="/// Graphic the toggle should be working with. ... " />
-            <marker date="1493825147000" expanded="true" signature="2632:2770" ph="/// The graphic element panel changing colour positionned under the selected On or Off label. ... " />
-            <marker date="1493825147000" expanded="true" signature="2859:3317" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="2885:3307" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="2965:3255" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="3007:3130" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="3177:3237" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="3327:3491" ph="/// Allow for delegate-based subscriptions for faster events than 'eventReceiver', and allowing for multiple rece ... " />
-            <marker date="1493825147000" expanded="true" signature="3713:3733" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="3797:4219" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="4288:4432" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="4478:4498" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="4551:4571" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="4615:4692" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="4702:4790" ph="/// Whether the toggle is currently active. ... " />
-            <marker date="1493825147000" expanded="true" signature="4815:4902" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="4932:4982" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="5031:5602" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="5141:5460" ph="/* Always send event when toggle is clicked, even if value didn't change ... */" />
-            <marker date="1493825147000" expanded="true" signature="5612:5689" ph="/// Play the appropriate effect. ... " />
-            <marker date="1493825147000" expanded="true" signature="5735:5949" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="5959:6040" ph="/// Assume the correct visual state. ... " />
-            <marker date="1493825147000" expanded="true" signature="6080:6128" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="6167:6288" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="6298:6363" ph="/// React to clicks. ... " />
-            <marker date="1493825147000" expanded="true" signature="6434:6580" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="6643:6693" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="6703:6861" ph="/// Sets all animated elements with their new tweening values. ... " />
-            <marker date="1493825147000" expanded="true" signature="6917:8233" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="7216:7411" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="7908:8223" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="8243:8348" ph="/// Inbetweening IEnumerator ... " />
-            <marker date="1493825147000" expanded="true" signature="8387:9530" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="8730:8888" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="9117:9460" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="9540:9669" ph="/// DoStateTransition is overidden to apply disabled effect on the &quot;selected&quot; image. ... " />
-            <marker date="1493825147000" expanded="true" signature="9755:10330" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="9919:10084" ph="{...}" />
-            <marker date="1493825147000" expanded="true" signature="10157:10320" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Result.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-142">
@@ -718,18 +871,190 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Tweening.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2950">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493313701000" expanded="true" signature="89:30950" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="112:1255" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="1283:30948" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="1300:1522" ph="/* TWEENING EQUATIONS floats ------------------------------------------------------------------------------------ ... */" />
+            <marker date="1493313701000" expanded="true" signature="1532:1886" ph="/* Easing equation float for a simple linear tweening, with no easing. ... */" />
+            <marker date="1493313701000" expanded="true" signature="1960:2014" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="2024:2398" ph="/* Easing equation float for a quadratic (t^2) easing in: accelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="2473:2534" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="2544:2917" ph="/* Easing equation float for a quadratic (t^2) easing out: decelerating to zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="2993:3061" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="3071:3463" ph="/* Easing equation float for a quadratic (t^2) easing in/out: acceleration until halfway, then deceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="3541:3678" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="3688:4080" ph="/* Easing equation float for a quadratic (t^2) easing out/in: deceleration until halfway, then acceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="4158:4310" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="4320:4694" ph="/* Easing equation float for a cubic (t^3) easing in: accelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="4770:4835" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="4845:5220" ph="/* Easing equation float for a cubic (t^3) easing out: decelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="5297:5375" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="5385:5777" ph="/* Easing equation float for a cubic (t^3) easing in/out: acceleration until halfway, then deceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="5856:5995" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="6005:6397" ph="/* Easing equation float for a cubic (t^3) easing out/in: deceleration until halfway, then acceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="6476:6630" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="6640:7044" ph="/* Easing equation float for a quartic (t^4) easing in: accelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="7120:7189" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="7199:7604" ph="/* Easing equation float for a quartic (t^4) easing out: decelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="7681:7764" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="7774:8196" ph="/* Easing equation float for a quartic (t^4) easing in/out: acceleration until halfway, then deceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="8275:8423" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="8433:8855" ph="/* Easing equation float for a quartic (t^4) easing out/in: deceleration until halfway, then acceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="8934:9088" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="9098:9502" ph="/* Easing equation float for a quintic (t^5) easing in: accelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="9578:9651" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="9661:10066" ph="/* Easing equation float for a quintic (t^5) easing out: decelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="10143:10229" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="10239:10661" ph="/* Easing equation float for a quintic (t^5) easing in/out: acceleration until halfway, then deceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="10740:10895" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="10905:11327" ph="/* Easing equation float for a quintic (t^5) easing out/in: deceleration until halfway, then acceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="11406:11560" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="11570:11980" ph="/* Easing equation float for a sinusoidal (sin(t)) easing in: accelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="12055:12142" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="12152:12563" ph="/* Easing equation float for a sinusoidal (sin(t)) easing out: decelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="12639:12721" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="12731:13159" ph="/* Easing equation float for a sinusoidal (sin(t)) easing in/out: acceleration until halfway, then deceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="13237:13324" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="13334:13762" ph="/* Easing equation float for a sinusoidal (sin(t)) easing out/in: deceleration until halfway, then acceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="13840:13992" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="14002:14411" ph="/* Easing equation float for an exponential (2^t) easing in: accelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="14486:14593" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="14603:15013" ph="/* Easing equation float for an exponential (2^t) easing out: decelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="15089:15198" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="15208:15635" ph="/* Easing equation float for an exponential (2^t) easing in/out: acceleration until halfway, then deceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="15713:15973" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="15983:16410" ph="/* Easing equation float for an exponential (2^t) easing out/in: deceleration until halfway, then acceleration. ... */" />
+            <marker date="1493313701000" expanded="true" signature="16488:16640" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="16650:17063" ph="/* Easing equation float for a circular (sqrt(1-t^2)) easing in: accelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="17138:17222" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="17232:17646" ph="/* Easing equation float for a circular (sqrt(1-t^2)) easing out: decelerating from zero velocity. ... */" />
+            <marker date="1493313701000" expanded="true" signature="17722:17806" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="17816:18247" ph="/* Easing equation float for a circular (sqrt(1-t^2)) easing in/out: acceleration until halfway, then deceleratio ... */" />
+            <marker date="1493313701000" expanded="true" signature="18325:18495" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="18505:18936" ph="/* Easing equation float for a circular (sqrt(1-t^2)) easing out/in: deceleration until halfway, then acceleratio ... */" />
+            <marker date="1493313701000" expanded="true" signature="19014:19166" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="19176:19679" ph="/* Easing equation float for an elastic (exponentially decaying sine wave) easing in: accelerating from zero velo ... */" />
+            <marker date="1493313701000" expanded="true" signature="19757:20270" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="19972:20050" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="20067:20155" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="20280:20784" ph="/* Easing equation float for an elastic (exponentially decaying sine wave) easing out: decelerating from zero vel ... */" />
+            <marker date="1493313701000" expanded="true" signature="20863:21373" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="21078:21156" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="21173:21261" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="21383:21904" ph="/* Easing equation float for an elastic (exponentially decaying sine wave) easing in/out: acceleration until half ... */" />
+            <marker date="1493313701000" expanded="true" signature="21985:22641" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="22213:22291" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="22308:22396" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="22651:23172" ph="/* Easing equation float for an elastic (exponentially decaying sine wave) easing out/in: deceleration until half ... */" />
+            <marker date="1493313701000" expanded="true" signature="23253:23411" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="23421:24055" ph="/* Easing equation float for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing in: accelerating from z ... */" />
+            <marker date="1493313701000" expanded="true" signature="24130:24243" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="24253:24888" ph="/* Easing equation float for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing out: decelerating from  ... */" />
+            <marker date="1493313701000" expanded="true" signature="24964:25090" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="25100:25752" ph="/* Easing equation float for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing in/out: acceleration un ... */" />
+            <marker date="1493313701000" expanded="true" signature="25830:26063" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="26073:26725" ph="/* Easing equation float for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing out/in: deceleration un ... */" />
+            <marker date="1493313701000" expanded="true" signature="26803:26955" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="26965:27404" ph="/* Easing equation float for a bounce (exponentially decaying parabolic bounce) easing in: accelerating from zero ... */" />
+            <marker date="1493313701000" expanded="true" signature="27481:27559" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="27569:28009" ph="/* Easing equation float for a bounce (exponentially decaying parabolic bounce) easing out: decelerating from zer ... */" />
+            <marker date="1493313701000" expanded="true" signature="28087:28645" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="28137:28215" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="28253:28358" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="28399:28507" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="28524:28635" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="28655:29112" ph="/* Easing equation float for a bounce (exponentially decaying parabolic bounce) easing in/out: acceleration until ... */" />
+            <marker date="1493313701000" expanded="true" signature="29192:29365" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="29375:29832" ph="/* Easing equation float for a bounce (exponentially decaying parabolic bounce) easing out/in: deceleration until ... */" />
+            <marker date="1493313701000" expanded="true" signature="29912:30068" ph="{...}" />
+            <marker date="1493313701000" expanded="true" signature="30215:30941" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonSwitch.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="154">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1493825919000" expanded="true" signature="6:77" ph="..." />
-            <marker date="1493825919000" expanded="true" signature="116:1407" ph="{...}" />
-            <marker date="1493825919000" expanded="true" signature="273:369" ph="{...}" />
-            <marker date="1493825919000" expanded="true" signature="395:696" ph="{...}" />
-            <marker date="1493825919000" expanded="true" signature="724:909" ph="{...}" />
-            <marker date="1493825919000" expanded="true" signature="938:1124" ph="{...}" />
-            <marker date="1493825919000" expanded="true" signature="1154:1405" ph="{...}" />
+            <marker date="1493830357000" expanded="true" signature="6:77" ph="..." />
+            <marker date="1493830357000" expanded="true" signature="116:1318" ph="{...}" />
+            <marker date="1493830357000" expanded="true" signature="273:392" ph="{...}" />
+            <marker date="1493830357000" expanded="true" signature="418:607" ph="{...}" />
+            <marker date="1493830357000" expanded="true" signature="635:820" ph="{...}" />
+            <marker date="1493830357000" expanded="true" signature="849:1035" ph="{...}" />
+            <marker date="1493830357000" expanded="true" signature="1065:1316" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Switch/Resources/Scripts/Switch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3546">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1493829973000" expanded="true" signature="6:163" ph="..." />
+            <marker date="1493829973000" expanded="true" signature="189:10338" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="196:284" ph="/// Taken largely from toggle.cs (Unity GUI source) ... " />
+            <marker date="1493829973000" expanded="true" signature="461:10336" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="542:562" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="572:667" ph="/// Is a tweening animation playing at the moment? ... " />
+            <marker date="1493829973000" expanded="true" signature="717:827" ph="/// Dictionary containing references to On and Off Text elements. ... " />
+            <marker date="1493829973000" expanded="true" signature="939:1002" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="1054:1506" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="1080:1496" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="1149:1446" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="1243:1428" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="1516:1613" ph="/// Total duration of a state transition in seconds. ... " />
+            <marker date="1493829973000" expanded="true" signature="1689:1823" ph="/// [0] -&gt; Label's colour when selected ... " />
+            <marker date="1493829973000" expanded="true" signature="1882:2012" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="2023:2190" ph="/// [0] -&gt; &quot;Selected&quot; panel's colour when position is On ... " />
+            <marker date="1493829973000" expanded="true" signature="2248:2363" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="2374:2439" ph="/// Transition type. ... " />
+            <marker date="1493829973000" expanded="true" signature="2501:2592" ph="/// Graphic the toggle should be working with. ... " />
+            <marker date="1493829973000" expanded="true" signature="2632:2770" ph="/// The graphic element panel changing colour positionned under the selected On or Off label. ... " />
+            <marker date="1493829973000" expanded="true" signature="2859:3317" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="2885:3307" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="2965:3255" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="3007:3130" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="3177:3237" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="3327:3491" ph="/// Allow for delegate-based subscriptions for faster events than 'eventReceiver', and allowing for multiple rece ... " />
+            <marker date="1493829973000" expanded="true" signature="3713:3733" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="3797:4219" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="4288:4432" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="4478:4498" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="4551:4571" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="4615:4692" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="4702:4790" ph="/// Whether the toggle is currently active. ... " />
+            <marker date="1493829973000" expanded="true" signature="4815:4902" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="4932:4982" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="5031:5602" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="5141:5460" ph="/* Always send event when toggle is clicked, even if value didn't change ... */" />
+            <marker date="1493829973000" expanded="true" signature="5612:5689" ph="/// Play the appropriate effect. ... " />
+            <marker date="1493829973000" expanded="true" signature="5735:5949" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="5959:6040" ph="/// Assume the correct visual state. ... " />
+            <marker date="1493829973000" expanded="true" signature="6080:6128" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="6167:6288" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="6298:6363" ph="/// React to clicks. ... " />
+            <marker date="1493829973000" expanded="true" signature="6434:6580" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="6643:6693" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="6703:6861" ph="/// Sets all animated elements with their new tweening values. ... " />
+            <marker date="1493829973000" expanded="true" signature="6917:8233" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="7216:7411" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="7908:8223" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="8243:8348" ph="/// Inbetweening IEnumerator ... " />
+            <marker date="1493829973000" expanded="true" signature="8387:9530" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="8730:8888" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="9117:9460" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="9540:9669" ph="/// DoStateTransition is overidden to apply disabled effect on the &quot;selected&quot; image. ... " />
+            <marker date="1493829973000" expanded="true" signature="9755:10330" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="9919:10084" ph="{...}" />
+            <marker date="1493829973000" expanded="true" signature="10157:10320" ph="{...}" />
           </folding>
         </state>
       </provider>

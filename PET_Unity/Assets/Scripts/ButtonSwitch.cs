@@ -12,15 +12,14 @@ public class ButtonSwitch : Raspberry
 
     private void Start()
     {
-        if (Swt.isOn)
-            SwitchOn();
+        if (DeviceIsOn())
+            Swt.OnPointerClick();
         else
-            SwitchOff();
+            Swt.OnPointerClick();
     }
 
     public void Toggle()
     {
-//        String url = GetUrl() + "/json.htm?type=command&param=switchlight&idx=" + idx + "5&switchcmd=Toggle";
         String url = "http://" + Ip + ":" + Port + "/json.htm?type=command&param=switchlight&idx=" + Idx +
                      "&switchcmd=Toggle";
         WWW www = Get(url);
