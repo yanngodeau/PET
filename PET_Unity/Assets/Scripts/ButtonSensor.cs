@@ -10,7 +10,7 @@ public class ButtonSensor : Raspberry
     public int Idx;
     public Text Retour;
 
-    private void Update()
+    private void Awake()
     {
         Retour.text = GetDataSensor();
     }
