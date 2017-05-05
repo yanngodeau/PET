@@ -67,6 +67,7 @@
     <Compile Include="Assets\ProceduralUIImage\Scripts\Modifiers\UniformModifier.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\ProceduralImage.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\ProceduralImageModifier.cs" />
+    <Compile Include="Assets\Scripts\ButtonSensor.cs" />
     <Compile Include="Assets\Scripts\ButtonSwitch.cs" />
     <Compile Include="Assets\Scripts\ConnectionScript.cs" />
     <Compile Include="Assets\Scripts\Interface\ActivatePanel.cs" />
