@@ -12,7 +12,7 @@ public class ButtonSwitch : Raspberry
     public Color ColorOn;
     public Color ColorOff;
 
-    private void Awake()
+    private void Update()
     {
         Btn.image.color = DeviceIsOn() ? ColorOn : ColorOff;
     }
@@ -44,6 +44,6 @@ public class ButtonSwitch : Raspberry
         WWW www = Get(url);
         var device = JsonConvert.DeserializeObject<RootObject>(www.text);
 
-        return device.result[0].Status == "On";
+        return device.result[0].Status == "On" && device.status == "OK";
     }
 }

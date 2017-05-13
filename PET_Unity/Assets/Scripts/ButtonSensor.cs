@@ -9,12 +9,45 @@ public class ButtonSensor : Raspberry
     private const string Port = "8080";
     public int Idx;
     public Text Retour;
+    public bool isTemp; // On si bouton température
+    public bool isHum; // On si bouton humidité
 
     private void Awake()
     {
-        Retour.text = GetDataSensor();
+        if (isTemp)
+        {
+            var temphum = GetDataSensor();
+            var vals = SplitTempHum(temphum);
+            Retour.text = vals[0];
+        }
+        else if (isHum)
+        {
+            var temphum = GetDataSensor();
+            var vals = SplitTempHum(temphum);
+            Retour.text = vals[1];
+        }
+        else
+        {
+            Retour.text = GetDataSensor();
+        }
+
     }
 
+    /// <summary>
+    /// Permet de séparer les valeurs température et humidité
+    /// </summary>
+    /// <param name="temphum"></param>
+    /// <returns>String[] vals</returns>
+    public String[] SplitTempHum(String temphum)
+    {
+        var vals = temphum.Split(',');
+        return vals;
+    }
+
+    /// <summary>
+    /// Retourne la valeur du capteur
+    /// </summary>
+    /// <returns>String data</returns>
     private String GetDataSensor()
     {
         String url = "http://" + Ip + ":" + Port + "/json.htm?type=devices&rid=" + Idx;

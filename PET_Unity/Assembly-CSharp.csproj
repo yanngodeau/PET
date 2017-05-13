@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>5004</unityProcessId>
+    <unityProcessId>13826</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -70,6 +70,9 @@
     <Compile Include="Assets\Scripts\ButtonSensor.cs" />
     <Compile Include="Assets\Scripts\ButtonSwitch.cs" />
     <Compile Include="Assets\Scripts\ConnectionScript.cs" />
+    <Compile Include="Assets\Scripts\Data\GlobalControl.cs" />
+    <Compile Include="Assets\Scripts\Data\ModuleGris.cs" />
+    <Compile Include="Assets\Scripts\Data\ModulesGrisesAutomatisation.cs" />
     <Compile Include="Assets\Scripts\Interface\ActivatePanel.cs" />
     <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeButtonColor.cs" />
@@ -77,10 +80,13 @@
     <Compile Include="Assets\Scripts\Interface\DropdownPanel.cs" />
     <Compile Include="Assets\Scripts\Interface\DropdownPanelAuto.cs" />
     <Compile Include="Assets\Scripts\Interface\ScrollSnapRect.cs" />
+    <Compile Include="Assets\Scripts\Interface\TestText.cs" />
     <Compile Include="Assets\Scripts\Interface\TextColor.cs" />
+    <Compile Include="Assets\Scripts\Interface\ToggleAmpoule.cs" />
     <Compile Include="Assets\Scripts\Raspberry.cs" />
     <Compile Include="Assets\Scripts\Result.cs" />
     <Compile Include="Assets\Scripts\RootObject.cs" />
+    <Compile Include="Assets\Scripts\TempHum.cs" />
     <Compile Include="Assets\Switch\Resources\Scripts\Switch.cs" />
     <Compile Include="Assets\Switch\Resources\Scripts\Tweening.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\UIVerticalScrollerDemo\Scripts\ScrollingCalendar.cs" />

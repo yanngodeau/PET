@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>5004</unityProcessId>
+    <unityProcessId>13826</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -13,7 +13,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>5004</unityProcessId>
+    <unityProcessId>13826</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -22,43 +22,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>5004</unityProcessId>
-  </PropertyGroup>
-  <PropertyGroup>
-    <LangVersion>4</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <unityVersion>5.5.0f3</unityVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <unityProcessId>5004</unityProcessId>
-  </PropertyGroup>
-  <PropertyGroup>
-    <LangVersion>4</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <unityVersion>5.5.0f3</unityVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <unityProcessId>5004</unityProcessId>
-  </PropertyGroup>
-  <PropertyGroup>
-    <LangVersion>4</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <unityVersion>5.5.0f3</unityVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <unityProcessId>5004</unityProcessId>
-  </PropertyGroup>
-  <PropertyGroup>
-    <LangVersion>4</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <unityVersion>5.5.0f3</unityVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <unityProcessId>5004</unityProcessId>
+    <unityProcessId>13826</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -138,8 +102,12 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Plugins\Newtonsoft.Json.10.0.2\lib\net20\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ActiverPanel.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\Attributes\ModifierID.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\EmptySprite.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\MaterialHelper.cs" />
@@ -150,10 +118,27 @@
     <Compile Include="Assets\ProceduralUIImage\Scripts\Modifiers\UniformModifier.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\ProceduralImage.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\ProceduralImageModifier.cs" />
-    <Compile Include="Assets\Scripts\ButtonText.cs" />
-    <Compile Include="Assets\Scripts\ChangeScene.cs" />
-    <Compile Include="Assets\Scripts\ScrollSnapRect.cs" />
-    <Compile Include="Assets\Scripts\TextColor.cs" />
+    <Compile Include="Assets\Scripts\ButtonSensor.cs" />
+    <Compile Include="Assets\Scripts\ButtonSwitch.cs" />
+    <Compile Include="Assets\Scripts\ConnectionScript.cs" />
+    <Compile Include="Assets\Scripts\Data\GlobalControl.cs" />
+    <Compile Include="Assets\Scripts\Data\ModuleGris.cs" />
+    <Compile Include="Assets\Scripts\Data\ModulesGrisesAutomatisation.cs" />
+    <Compile Include="Assets\Scripts\Interface\ActivatePanel.cs" />
+    <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
+    <Compile Include="Assets\Scripts\Interface\ChangeButtonColor.cs" />
+    <Compile Include="Assets\Scripts\Interface\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\Interface\DropdownPanel.cs" />
+    <Compile Include="Assets\Scripts\Interface\DropdownPanelAuto.cs" />
+    <Compile Include="Assets\Scripts\Interface\ScrollSnapRect.cs" />
+    <Compile Include="Assets\Scripts\Interface\TestText.cs" />
+    <Compile Include="Assets\Scripts\Interface\TextColor.cs" />
+    <Compile Include="Assets\Scripts\Interface\ToggleAmpoule.cs" />
+    <Compile Include="Assets\Scripts\Raspberry.cs" />
+    <Compile Include="Assets\Scripts\Result.cs" />
+    <Compile Include="Assets\Scripts\RootObject.cs" />
+    <Compile Include="Assets\Switch\Resources\Scripts\Switch.cs" />
+    <Compile Include="Assets\Switch\Resources\Scripts\Tweening.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\UIVerticalScrollerDemo\Scripts\ScrollingCalendar.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\testHref.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Accordion\Accordion.cs" />
@@ -289,7 +274,9 @@
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values-v19\styles.xml" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values-v21\styles.xml" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values\styles.xml" />
+    <None Include="Assets\Plugins\Newtonsoft.Json.10.0.2\lib\net20\Newtonsoft.Json.xml" />
     <None Include="Assets\ProceduralUIImage\Shaders\ProceduralImageRuntime.shader" />
+    <None Include="Assets\Switch\Resources\Textures\README.txt" />
     <None Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\SurrogatesReadMe.txt" />
     <None Include="Assets\unity-ui-extensions\Shaders\SoftMaskShader.shader" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIAdditive.shader" />
@@ -302,46 +289,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
