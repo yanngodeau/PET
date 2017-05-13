@@ -12,7 +12,7 @@ public class ButtonSwitch : Raspberry
     public Color ColorOn;
     public Color ColorOff;
 
-    private void Update()
+    public void Update()
     {
         Btn.image.color = DeviceIsOn() ? ColorOn : ColorOff;
     }

@@ -10,8 +10,6 @@ using UnityEngine.UI;
 /// </summary>
 public class ConnectionScript : MonoBehaviour
 {
-    [SerializeField] public InputField Login;
-    [SerializeField] public InputField Pass;
     [SerializeField] public InputField Ip;
     [SerializeField] public InputField Port;
     [SerializeField] public Raspberry Rpi;
@@ -29,8 +27,6 @@ public class ConnectionScript : MonoBehaviour
             Debug.Log("CONNECT SUCCESS");
             Rpi.SetIp(Ip.text);
             Rpi.SetPort(Port.text);
-            Rpi.SetLogin(Login.text);
-            Rpi.SetPass(Pass.text);
             Rpi.CreateDeviceList();
             SceneManager.LoadScene(1);
         }

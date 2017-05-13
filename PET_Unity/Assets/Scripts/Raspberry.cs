@@ -8,8 +8,6 @@ using UnityEngine;
 /// </summary>
 public class Raspberry : MonoBehaviour
 {
-    private String _login;
-    private String _pass;
     private String _ip;
     private String _port;
     private RootObject _root; // RootObject du retour json
@@ -19,15 +17,6 @@ public class Raspberry : MonoBehaviour
         DontDestroyOnLoad(transform.gameObject);
     }
 
-    public String GetLogin()
-    {
-        return _login;
-    }
-
-    public String GetPass()
-    {
-        return _pass;
-    }
 
     public String GetIp()
     {
@@ -39,16 +28,6 @@ public class Raspberry : MonoBehaviour
         return _port;
     }
 
-
-    public void SetLogin(String login)
-    {
-        _login = login;
-    }
-
-    public void SetPass(String pass)
-    {
-        _pass = pass;
-    }
 
     public void SetIp(String ip)
     {

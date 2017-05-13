@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>13826</unityProcessId>
+    <unityProcessId>16257</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -86,7 +86,6 @@
     <Compile Include="Assets\Scripts\Raspberry.cs" />
     <Compile Include="Assets\Scripts\Result.cs" />
     <Compile Include="Assets\Scripts\RootObject.cs" />
-    <Compile Include="Assets\Scripts\TempHum.cs" />
     <Compile Include="Assets\Switch\Resources\Scripts\Switch.cs" />
     <Compile Include="Assets\Switch\Resources\Scripts\Tweening.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\UIVerticalScrollerDemo\Scripts\ScrollingCalendar.cs" />
@@ -234,6 +233,9 @@
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values\styles.xml" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\AndroidManifest.xml" />
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -245,6 +247,9 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
