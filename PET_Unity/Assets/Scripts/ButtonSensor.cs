@@ -12,32 +12,32 @@ public class ButtonSensor : Raspberry
     public bool isTemp; // On si bouton température
     public bool isHum; // On si bouton humidité
 
-    private void Awake()
-    {
-        if (isTemp)
-        {
-            var temphum = GetDataSensor();
-            var vals = SplitTempHum(temphum);
-            Retour.text = vals[0];
-        }
-        else if (isHum)
-        {
-            var temphum = GetDataSensor();
-            var vals = SplitTempHum(temphum);
-            Retour.text = vals[1];
-        }
-        else
-        {
-            Retour.text = GetDataSensor();
-        }
 
-    }
+//    private void Awake()
+//    {
+//        if (isTemp)
+//        {
+//            var temphum = GetDataSensor();
+//            var vals = SplitTempHum(temphum);
+//            Retour.text = vals[0];
+//        }
+//        else if (isHum)
+//        {
+//            var temphum = GetDataSensor();
+//            var vals = SplitTempHum(temphum);
+//            Retour.text = vals[1];
+//        }
+//        else
+//        {
+//            Retour.text = GetDataSensor();
+//        }
+//    }
 
     /// <summary>
     /// Permet de séparer les valeurs température et humidité
     /// </summary>
     /// <param name="temphum"></param>
-    /// <returns>String[] vals</returns>
+    /// <returns>String[] vals : Le tableau contenant les 2 valeurs</returns>
     public String[] SplitTempHum(String temphum)
     {
         var vals = temphum.Split(',');

@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>16257</unityProcessId>
+    <unityProcessId>25002</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -13,7 +13,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>16055</unityProcessId>
+    <unityProcessId>24900</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -22,7 +22,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>16055</unityProcessId>
+    <unityProcessId>24652</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -31,7 +31,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>14827</unityProcessId>
+    <unityProcessId>24357</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -40,7 +40,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>14621</unityProcessId>
+    <unityProcessId>24268</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -49,7 +49,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>14621</unityProcessId>
+    <unityProcessId>24000</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -58,7 +58,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>14533</unityProcessId>
+    <unityProcessId>24000</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -67,7 +67,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>13826</unityProcessId>
+    <unityProcessId>23555</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -76,7 +76,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>13826</unityProcessId>
+    <unityProcessId>23121</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -85,7 +85,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>13826</unityProcessId>
+    <unityProcessId>23121</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -94,7 +94,25 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>13826</unityProcessId>
+    <unityProcessId>23121</unityProcessId>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <unityVersion>5.5.0f3</unityVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <unityProcessId>22868</unityProcessId>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <unityVersion>5.5.0f3</unityVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <unityProcessId>22868</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -179,7 +197,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ActiverPanel.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\Attributes\ModifierID.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\EmptySprite.cs" />
     <Compile Include="Assets\ProceduralUIImage\Scripts\MaterialHelper.cs" />
@@ -194,18 +211,26 @@
     <Compile Include="Assets\Scripts\ButtonSwitch.cs" />
     <Compile Include="Assets\Scripts\ConnectionScript.cs" />
     <Compile Include="Assets\Scripts\Data\GlobalControl.cs" />
-    <Compile Include="Assets\Scripts\Data\ModuleGris.cs" />
-    <Compile Include="Assets\Scripts\Data\ModulesGrisesAutomatisation.cs" />
-    <Compile Include="Assets\Scripts\Interface\ActivatePanel.cs" />
+    <Compile Include="Assets\Scripts\Data\Serializables.cs" />
+    <Compile Include="Assets\Scripts\Interface\ActiverPanel.cs" />
     <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeButtonColor.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\Interface\DropdownPanel.cs" />
     <Compile Include="Assets\Scripts\Interface\DropdownPanelAuto.cs" />
+    <Compile Include="Assets\Scripts\Interface\EmplacementScroll.cs" />
+    <Compile Include="Assets\Scripts\Interface\ModuleOuHistorique.cs" />
+    <Compile Include="Assets\Scripts\Interface\ModulesGrisesAutomatisation.cs" />
+    <Compile Include="Assets\Scripts\Interface\RondTutoriel.cs" />
     <Compile Include="Assets\Scripts\Interface\ScrollSnapRect.cs" />
+    <Compile Include="Assets\Scripts\Interface\SuperSwitch.cs" />
     <Compile Include="Assets\Scripts\Interface\TestText.cs" />
     <Compile Include="Assets\Scripts\Interface\TextColor.cs" />
     <Compile Include="Assets\Scripts\Interface\ToggleAmpoule.cs" />
+    <Compile Include="Assets\Scripts\Interface\Tutoriel.cs" />
+    <Compile Include="Assets\Scripts\Interface\TutorielAuto.cs" />
+    <Compile Include="Assets\Scripts\Interface\TutorielConso.cs" />
+    <Compile Include="Assets\Scripts\Interface\TutorielModuleSpe.cs" />
     <Compile Include="Assets\Scripts\Raspberry.cs" />
     <Compile Include="Assets\Scripts\Result.cs" />
     <Compile Include="Assets\Scripts\RootObject.cs" />
@@ -361,6 +386,26 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <ItemGroup>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

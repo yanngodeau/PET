@@ -12,6 +12,15 @@ public class DropdownPanelAuto : MonoBehaviour
     public GameObject panel3;
     public GameObject panel4;
     public GameObject panel5;
+    public int derniereCategorie;
+
+    void Start()
+    {
+        //se place dans la bonne categorie
+        superdropdown.value = GlobalControl.Instance.derniereCategorie;
+        BeenClicked();
+    }
+
 
     public void BeenClicked()
     {
@@ -55,5 +64,6 @@ public class DropdownPanelAuto : MonoBehaviour
             panel4.SetActive(false);
             panel5.SetActive(true);
         }
+        GlobalControl.Instance.derniereCategorie = superdropdown.value;
     }
 }
