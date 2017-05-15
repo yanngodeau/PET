@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>36373</unityProcessId>
+    <unityProcessId>36614</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Data\SauvegarderDonneesDropdown.cs" />
     <Compile Include="Assets\Scripts\Data\SauvegarderDonneesModule.cs" />
     <Compile Include="Assets\Scripts\Data\Serializables.cs" />
+    <Compile Include="Assets\Scripts\HourModule.cs" />
     <Compile Include="Assets\Scripts\Interface\ActiverPanel.cs" />
     <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeButtonColor.cs" />
