@@ -13,7 +13,7 @@ public class ButtonSensor : Raspberry
 
     private void Awake()
     {
-        if (!ConnectOK) return;
+        if (!ConnectionOK()) return;
         if (IsTemp)
         {
             var temphum = GetDataSensor();
@@ -52,11 +52,7 @@ public class ButtonSensor : Raspberry
         String url = "http://" + Ip + ":" + Port + "/json.htm?type=devices&rid=" + Idx;
         WWW www = Get(url);
 
-        if (www != null)
-        {
-            var device = JsonConvert.DeserializeObject<RootObject>(www.text);
-            return device.result[0].Data;
-        }
-        return "N/A";
+        var device = JsonConvert.DeserializeObject<RootObject>(www.text);
+        return device.result[0].Data;
     }
 }

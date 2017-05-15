@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Net;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -22,12 +23,13 @@ public class ConnectionScript : MonoBehaviour
     /// </summary>
     public void Connexion()
     {
-        if (Ip.text != "" && Port.text != "" && ConnectTest(Ip.text, Port.text))
+        if (Ip.text != "" && Port.text != "" && ConnectionOK(Ip.text, Port.text))
         {
             Debug.Log("CONNECT SUCCESS");
             Rpi.SetIp(Ip.text);
             Rpi.SetPort(Port.text);
             Rpi.CreateDeviceList();
+            Rpi.ConnectOK = true;
             SceneManager.LoadScene(1);
         }
         else
@@ -35,19 +37,6 @@ public class ConnectionScript : MonoBehaviour
             Retour.text = "<color=#ff3333>Echec de connexion</color>";
             Debug.Log("CONNECT FAILURE");
         }
-    }
-
-    /// <summary>
-    /// Test la connexion avec le raspberry
-    /// </summary>
-    /// <param name="ip"> IP du Raspberry</param>
-    /// <param name="port">Port du Raspberry</param>
-    /// <returns>ture si la connexion est bonne, false sinon</returns>
-    private bool ConnectTest(String ip, String port)
-    {
-        String url = "http://" + ip + ":" + port + "/json.htm?type=command&param=getSunRiseSet";
-        WWW www = Get(url);
-        return www.text != "";
     }
 
 
@@ -81,5 +70,30 @@ public class ConnectionScript : MonoBehaviour
     IEnumerator WaitForWWW(WWW www)
     {
         yield return www;
+    }
+
+    /// <summary>
+    /// Test la connexion avec le Raspberry
+    /// </summary>
+    /// <param name="Ip">L'Ip du Raspberry</param>
+    /// <param name="Port">Le Port</param>
+    /// <returns>true si la connexion est bonne, false sinon</returns>
+    public bool ConnectionOK(String Ip, String Port)
+    {
+        String url = "http://" + Ip + ":" + Port + "/json.htm?type=command&param=getSunRiseSet";
+        HttpWebRequest request = (HttpWebRequest) WebRequest.Create(url);
+        request.Timeout = 1000;
+
+        try
+        {
+            WebResponse response = request.GetResponse();
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e);
+            return false;
+        }
+
+        return true;
     }
 }

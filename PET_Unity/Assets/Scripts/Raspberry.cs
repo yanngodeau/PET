@@ -3,7 +3,6 @@ using System.Collections;
 using System.Net;
 using Newtonsoft.Json;
 using UnityEngine;
-using UnityEngine.Networking;
 
 /// <summary>
 ///
@@ -65,6 +64,10 @@ public class Raspberry : MonoBehaviour
         Debug.Log(_root);
     }
 
+    /// <summary>
+    /// Test la connexion avec le Raspberry
+    /// </summary>
+    /// <returns>true si la connexion est bonne, false sinon</returns>
     public bool ConnectionOK()
     {
         String url = GetUrl() + "/json.htm?type=command&param=getSunRiseSet";
@@ -86,10 +89,6 @@ public class Raspberry : MonoBehaviour
 
     public WWW Get(string url)
     {
-        if (!ConnectionOK())
-        {
-            return null;
-        }
         WWW www = new WWW(url);
 
         StartCoroutine(WaitForWWW(www));
