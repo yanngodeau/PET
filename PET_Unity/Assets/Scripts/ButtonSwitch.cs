@@ -5,18 +5,19 @@ using UnityEngine.UI;
 
 public class ButtonSwitch : Raspberry
 {
-    private const string Ip = "172.20.10.10";
-    private const string Port = "8080";
+
     public int Idx;
     public Button Btn;
     public Color ColorOn;
     public Color ColorOff;
 
-
-//    void Update()
-//    {
-//        Btn.image.color = DeviceIsOn() ? ColorOn : ColorOff;
-//    }
+    void Update()
+    {
+        if (ConnectOK)
+        {
+            Btn.image.color = DeviceIsOn() ? ColorOn : ColorOff;
+        }
+    }
 
     public void Toggle()
     {
@@ -43,8 +44,12 @@ public class ButtonSwitch : Raspberry
     {
         String url = "http://" + Ip + ":" + Port + "/json.htm?type=devices&rid=" + Idx;
         WWW www = Get(url);
-        var device = JsonConvert.DeserializeObject<RootObject>(www.text);
 
-        return device.result[0].Status == "On" && device.status == "OK";
+        if (www != null)
+        {
+            var device = JsonConvert.DeserializeObject<RootObject>(www.text);
+            return device.result[0].Status == "On" && device.status == "OK";
+        }
+        return false;
     }
 }

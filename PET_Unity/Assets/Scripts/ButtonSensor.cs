@@ -5,33 +5,32 @@ using UnityEngine.UI;
 
 public class ButtonSensor : Raspberry
 {
-    private const string Ip = "172.20.10.10";
-    private const string Port = "8080";
     public int Idx;
     public Text Retour;
-    public bool isTemp; // On si bouton température
-    public bool isHum; // On si bouton humidité
+    public bool IsTemp; // On si bouton température
+    public bool IsHum; // On si bouton humidité
 
 
-//    private void Awake()
-//    {
-//        if (isTemp)
-//        {
-//            var temphum = GetDataSensor();
-//            var vals = SplitTempHum(temphum);
-//            Retour.text = vals[0];
-//        }
-//        else if (isHum)
-//        {
-//            var temphum = GetDataSensor();
-//            var vals = SplitTempHum(temphum);
-//            Retour.text = vals[1];
-//        }
-//        else
-//        {
-//            Retour.text = GetDataSensor();
-//        }
-//    }
+    private void Awake()
+    {
+        if (!ConnectOK) return;
+        if (IsTemp)
+        {
+            var temphum = GetDataSensor();
+            var vals = SplitTempHum(temphum);
+            Retour.text = vals[0];
+        }
+        else if (IsHum)
+        {
+            var temphum = GetDataSensor();
+            var vals = SplitTempHum(temphum);
+            Retour.text = vals[1];
+        }
+        else
+        {
+            Retour.text = GetDataSensor();
+        }
+    }
 
     /// <summary>
     /// Permet de séparer les valeurs température et humidité
@@ -52,8 +51,12 @@ public class ButtonSensor : Raspberry
     {
         String url = "http://" + Ip + ":" + Port + "/json.htm?type=devices&rid=" + Idx;
         WWW www = Get(url);
-        var device = JsonConvert.DeserializeObject<RootObject>(www.text);
 
-        return device.result[0].Data;
+        if (www != null)
+        {
+            var device = JsonConvert.DeserializeObject<RootObject>(www.text);
+            return device.result[0].Data;
+        }
+        return "N/A";
     }
 }

@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class HourModule : Raspberry
 {
-    private const string Ip = "172.20.10.10";
-    private const string Port = "8080";
     public int IdxStartVar;
     public int IdxEndVar;
     public String NumModule;

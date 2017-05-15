@@ -1,47 +1,46 @@
 ﻿using System;
 using System.Collections;
+using System.Net;
 using Newtonsoft.Json;
 using UnityEngine;
+using UnityEngine.Networking;
 
 /// <summary>
 ///
 /// </summary>
 public class Raspberry : MonoBehaviour
 {
-    private String _ip;
-    private String _port;
+    public String Ip = "172.20.10.10";
+    public String Port = "8080";
     private RootObject _root; // RootObject du retour json
-
-    void Start()
-    {
-        TestConnection("17.2.10.10", "8090");
-    }
+    public bool ConnectOK;
 
     void Awake()
     {
+        ConnectOK = ConnectionOK();
         DontDestroyOnLoad(transform.gameObject);
     }
 
 
     public String GetIp()
     {
-        return _ip;
+        return Ip;
     }
 
     public String GetPort()
     {
-        return _port;
+        return Port;
     }
 
 
     public void SetIp(String ip)
     {
-        _ip = ip;
+        Ip = ip;
     }
 
     public void SetPort(String port)
     {
-        _port = port;
+        Port = port;
     }
 
     /// <summary>
@@ -66,66 +65,37 @@ public class Raspberry : MonoBehaviour
         Debug.Log(_root);
     }
 
-    /// <summary>
-    /// Test la connexion avec le Raspberry
-    /// </summary>
-    /// <param name="ip">L'ip du raspberry</param>
-    /// <param name="port">Le port utilisé comme</param>
-    /// <returns>false si true si echec de connexion, false sinon</returns>
-    public bool TestConnection(String ip, String port)
+    public bool ConnectionOK()
     {
-        float timeOut = Time.time + 3;
-        bool failed = false;
+        String url = GetUrl() + "/json.htm?type=command&param=getSunRiseSet";
+        HttpWebRequest request = (HttpWebRequest) WebRequest.Create(url);
+        request.Timeout = 1000;
 
-        String url = "http://" + ip + ":" + port + "/json.htm?type=command&param=getSunRiseSet";
-        WWW www = new WWW(url);
+        try
+        {
+            WebResponse response = request.GetResponse();
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e);
+            return false;
+        }
 
-        StartCoroutine(WaitForWWW(www));
-        do
-        {
-            if (Time.time > timeOut)
-            {
-                failed = true;
-                break;
-            }
-        } while (!www.isDone || www.error != null);
-        if (failed)
-        {
-            Debug.Log("FAIL");
-        }
-        else
-        {
-            Debug.Log("SUCCESS");
-        }
-        return failed;
+        return true;
     }
-
 
     public WWW Get(string url)
     {
-        WWW www = new WWW(url);
-        float timeOut = Time.time + 10;
-        bool failed = false;
-        StartCoroutine(WaitForWWW(www));
-        //do nothing untill json is loaded
-
-        do
-        {
-            if (Time.time > timeOut)
-            {
-                failed = true;
-                break;
-            }
-        } while (!www.isDone);
-
-//        while (!www.isDone)
-//        {
-//
-//        }
-
-        if (failed)
+        if (!ConnectionOK())
         {
             return null;
+        }
+        WWW www = new WWW(url);
+
+        StartCoroutine(WaitForWWW(www));
+        //do nothing untill json is loaded
+        while (!www.isDone)
+        {
         }
 
         if (string.IsNullOrEmpty(www.error))
