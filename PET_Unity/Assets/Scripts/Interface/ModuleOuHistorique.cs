@@ -8,17 +8,16 @@ using UnityEngine.UI.Extensions;
 public class ModuleOuHistorique : MonoBehaviour
 {
     public HorizontalScrollSnap scrollHorizontal;
-    private int lul;
-
-    void Awake()
+     void Awake()
     {
-        lul = GlobalControl.Instance.moduleOuHistorique;
-        Debug.Log(lul);
         scrollHorizontal.StartingScreen = GlobalControl.Instance.moduleOuHistorique;
+       
+
     }
 
     public void BeenClicked()
     {
         GlobalControl.Instance.moduleOuHistorique = scrollHorizontal.CurrentPage;
     }
+
 }

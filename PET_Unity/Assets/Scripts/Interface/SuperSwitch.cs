@@ -87,7 +87,6 @@ public class SuperSwitch : MonoBehaviour
     {
         Scene sceneactuelle;
         sceneactuelle = SceneManager.GetActiveScene();
-        Debug.Log(sceneactuelle.name);
         switch (sceneactuelle.name)
         {
             case "SceneAutomatisationModuleA1":

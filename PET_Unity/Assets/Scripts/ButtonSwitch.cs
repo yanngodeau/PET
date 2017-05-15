@@ -21,6 +21,7 @@ public class ButtonSwitch : Raspberry
 
     public void Toggle()
     {
+        if (!ConnectOK) return;
         String url = "http://" + Ip + ":" + Port + "/json.htm?type=command&param=switchlight&idx=" + Idx +
                      "&switchcmd=Toggle";
         WWW www = Get(url);
