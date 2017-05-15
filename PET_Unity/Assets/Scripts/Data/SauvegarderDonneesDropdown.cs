@@ -4,17 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class SauvegarderDonneesDropdown : MonoBehaviour {
-
+public class SauvegarderDonneesDropdown : MonoBehaviour
+{
     public ParametresModules paramModules = new ParametresModules();
+
     //0 pour location/autre, 1 pour heureD, 2 pour minD, 3 pour heureF, 4 pour minF
     public int typeDropdown;
+
     public Dropdown dropdown;
 
 
-
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         paramModules = SelectScene();
         switch (typeDropdown)
         {
@@ -34,10 +36,9 @@ public class SauvegarderDonneesDropdown : MonoBehaviour {
                 dropdown.value = paramModules.minuteFin;
                 break;
         }
-
     }
-	
-	public void BeenClicked()
+
+    public void BeenClicked()
     {
         switch (typeDropdown)
         {

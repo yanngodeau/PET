@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class SauvegarderDonneesModule : MonoBehaviour {
-
+public class SauvegarderDonneesModule : MonoBehaviour
+{
     public ParametresModules paramModules = new ParametresModules();
     public bool dropdown;
     public bool jours;
@@ -14,10 +14,10 @@ public class SauvegarderDonneesModule : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         paramModules = SelectScene();
-
-	}
+    }
 
 
     private ParametresModules SelectScene()
@@ -72,5 +72,4 @@ public class SauvegarderDonneesModule : MonoBehaviour {
 
         return paramModules;
     }
-
 }

@@ -10,6 +10,7 @@ public class GlobalControl : MonoBehaviour
 
     //variables a garder
     public SwitchsModules moduleA1 = new SwitchsModules();
+
     public ParametresModules paramModuleA1 = new ParametresModules();
     public SwitchsModules moduleA2 = new SwitchsModules();
     public ParametresModules paramModuleA2 = new ParametresModules();

@@ -74,7 +74,6 @@
     <Compile Include="Assets\Scripts\Data\SauvegarderDonneesDropdown.cs" />
     <Compile Include="Assets\Scripts\Data\SauvegarderDonneesModule.cs" />
     <Compile Include="Assets\Scripts\Data\Serializables.cs" />
-    <Compile Include="Assets\Scripts\HourModule.cs" />
     <Compile Include="Assets\Scripts\Interface\ActiverPanel.cs" />
     <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeButtonColor.cs" />
@@ -97,6 +96,7 @@
     <Compile Include="Assets\Scripts\Raspberry.cs" />
     <Compile Include="Assets\Scripts\Result.cs" />
     <Compile Include="Assets\Scripts\RootObject.cs" />
+    <Compile Include="Assets\Scripts\SetSettingsMod.cs" />
     <Compile Include="Assets\Switch\Resources\Scripts\Switch.cs" />
     <Compile Include="Assets\Switch\Resources\Scripts\Tweening.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\UIVerticalScrollerDemo\Scripts\ScrollingCalendar.cs" />
@@ -244,9 +244,6 @@
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values\styles.xml" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\AndroidManifest.xml" />
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -258,9 +255,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
