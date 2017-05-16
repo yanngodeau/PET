@@ -30,7 +30,7 @@ public class ConnectionScript : MonoBehaviour
             Rpi.SetPort(Port.text);
             Rpi.CreateDeviceList();
             Rpi.ConnectOK = true;
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(28);
         }
         else
         {

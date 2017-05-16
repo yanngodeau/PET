@@ -29,3 +29,15 @@ public class ParametresModules
     public int heureFin = 0;
     public int minuteFin = 0;
 }
+
+public class ParametresTaches
+{
+    public bool tache1Terminee = false;
+    public bool tache2Terminee = false;
+    public bool tache3Terminee = false;
+    public bool tache4Terminee = false;
+    public bool tache5Terminee = false;
+    public bool tache6Terminee = false;
+    public bool tache7Terminee = false;
+    public bool tache8Terminee = false;
+}

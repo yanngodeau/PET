@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>36614</unityProcessId>
+    <unityProcessId>43216</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -71,11 +71,21 @@
     <Compile Include="Assets\Scripts\ButtonSwitch.cs" />
     <Compile Include="Assets\Scripts\ConnectionScript.cs" />
     <Compile Include="Assets\Scripts\Data\GlobalControl.cs" />
+    <Compile Include="Assets\Scripts\Data\ListeTaches.cs" />
+    <Compile Include="Assets\Scripts\Data\NomPingouin.cs" />
     <Compile Include="Assets\Scripts\Data\SauvegarderDonneesDropdown.cs" />
     <Compile Include="Assets\Scripts\Data\SauvegarderDonneesModule.cs" />
     <Compile Include="Assets\Scripts\Data\Serializables.cs" />
+    <Compile Include="Assets\Scripts\Data\Tache1.cs" />
+    <Compile Include="Assets\Scripts\Data\Tache2.cs" />
+    <Compile Include="Assets\Scripts\Data\Tache3.cs" />
+    <Compile Include="Assets\Scripts\Data\Tache5.cs" />
+    <Compile Include="Assets\Scripts\Data\Tache6.cs" />
+    <Compile Include="Assets\Scripts\Data\Tache7.cs" />
+    <Compile Include="Assets\Scripts\Data\Tache8.cs" />
     <Compile Include="Assets\Scripts\HourModule.cs" />
     <Compile Include="Assets\Scripts\Interface\ActiverPanel.cs" />
+    <Compile Include="Assets\Scripts\Interface\AfficherNomPingouin.cs" />
     <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeButtonColor.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeScene.cs" />
@@ -245,6 +255,9 @@
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\res\values\styles.xml" />
     <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
     <None Include="Assets\Plugins\Android\UnityShowAndroidStatusBar\AndroidManifest.xml" />
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -256,6 +269,9 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>

@@ -44,7 +44,10 @@ public class GlobalControl : MonoBehaviour
     public bool ampouleOn;
     public bool priseAOn;
     public bool priseBOn;
+    public string nomPingouin;
 
+    public ParametresTaches taches = new ParametresTaches();
+    
 
     //fonction qui met a jour ce script lorsqu'on charge une scene
     void Awake()
