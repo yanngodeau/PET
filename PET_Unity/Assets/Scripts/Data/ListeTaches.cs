@@ -26,6 +26,7 @@ public class ListeTaches : MonoBehaviour {
 
 
 
+
     void Start () {
         Tache1Check.SetActive(taches.tache1Terminee);
         Tache1Help.SetActive(!taches.tache1Terminee);

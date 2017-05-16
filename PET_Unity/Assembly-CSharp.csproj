@@ -4,7 +4,7 @@
     <unityVersion>5.5.0f3</unityVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <unityProcessId>43216</unityProcessId>
+    <unityProcessId>46291</unityProcessId>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>4</LangVersion>
@@ -79,16 +79,20 @@
     <Compile Include="Assets\Scripts\Data\Tache1.cs" />
     <Compile Include="Assets\Scripts\Data\Tache2.cs" />
     <Compile Include="Assets\Scripts\Data\Tache3.cs" />
+    <Compile Include="Assets\Scripts\Data\Tache4.cs" />
     <Compile Include="Assets\Scripts\Data\Tache5.cs" />
     <Compile Include="Assets\Scripts\Data\Tache6.cs" />
     <Compile Include="Assets\Scripts\Data\Tache7.cs" />
     <Compile Include="Assets\Scripts\Data\Tache8.cs" />
     <Compile Include="Assets\Scripts\HourModule.cs" />
     <Compile Include="Assets\Scripts\Interface\ActiverPanel.cs" />
+    <Compile Include="Assets\Scripts\Interface\AfficherAide.cs" />
     <Compile Include="Assets\Scripts\Interface\AfficherNomPingouin.cs" />
+    <Compile Include="Assets\Scripts\Interface\BarreDeProgression.cs" />
     <Compile Include="Assets\Scripts\Interface\ButtonText.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeButtonColor.cs" />
     <Compile Include="Assets\Scripts\Interface\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\Interface\ChangerImagePingouin.cs" />
     <Compile Include="Assets\Scripts\Interface\DropdownPanel.cs" />
     <Compile Include="Assets\Scripts\Interface\DropdownPanelAuto.cs" />
     <Compile Include="Assets\Scripts\Interface\EmplacementScroll.cs" />

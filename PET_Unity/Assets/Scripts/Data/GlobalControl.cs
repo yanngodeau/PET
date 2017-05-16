@@ -47,6 +47,7 @@ public class GlobalControl : MonoBehaviour
     public string nomPingouin;
 
     public ParametresTaches taches = new ParametresTaches();
+    public bool notifsGenerales;
     
 
     //fonction qui met a jour ce script lorsqu'on charge une scene

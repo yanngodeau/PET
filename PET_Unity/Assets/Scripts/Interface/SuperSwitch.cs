@@ -59,6 +59,16 @@ public class SuperSwitch : MonoBehaviour
         //SavePlayer();
     }
 
+    public void ClickSettings()
+    {
+        activation = GlobalControl.Instance.notifsGenerales;
+        activation = !activation;
+        panelOn.SetActive(activation);
+        textOff.SetActive(activation);
+        panelOff.SetActive(!activation);
+        textOn.SetActive(!activation);
+    }
+
     //Partie visuelle du switch
     private void ActiverSwitch(int switchAActiver)
     {
@@ -130,6 +140,8 @@ public class SuperSwitch : MonoBehaviour
                 break;
             case "SceneAutomatisationModuleS2":
                 boolmodules = GlobalControl.Instance.moduleS2;
+                break;
+            default:
                 break;
         }
 
