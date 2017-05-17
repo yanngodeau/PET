@@ -1,11 +1,11 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{E2FFBAB8-26B8-FB56-D80C-17E35E43E19E}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E4B50844-AF1F-4AE2-F999-6E2338713CB0}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PET_Unity", "Assembly-CSharp.csproj", "{E4B50844-AF1F-4AE2-F999-6E2338713CB0}"
 EndProject
-Project("{E2FFBAB8-26B8-FB56-D80C-17E35E43E19E}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{3615749A-2AB7-40BB-7C55-05C6B33CD403}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PET_Unity", "Assembly-CSharp-Editor-firstpass.csproj", "{3615749A-2AB7-40BB-7C55-05C6B33CD403}"
 EndProject
-Project("{E2FFBAB8-26B8-FB56-D80C-17E35E43E19E}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{9304F421-5169-4A17-EAC7-469793E4FEF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PET_Unity", "Assembly-CSharp-Editor.csproj", "{9304F421-5169-4A17-EAC7-469793E4FEF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

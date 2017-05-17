@@ -11,7 +11,7 @@ public class BarreDeProgression : MonoBehaviour {
     private Vector3 pos;
     private int i = 0;
     private int decalage;
-    private int pourcentage = 0;
+    private float pourcentage = 0;
     public Text textPourcentage;
 
     // Use this for initialization
@@ -34,11 +34,12 @@ public class BarreDeProgression : MonoBehaviour {
         if (paramTaches.tache8Terminee)
             i++;
 
-        decalage = i * 56;
-        if (i == 7)
+        //decalage = i * 56;
+        decalage = i * 112;
+        if (i == 8)
             pourcentage = 100;
         else
-            pourcentage = i * 11;
+            pourcentage = i * 12.5f;
         
         textPourcentage.text = pourcentage.ToString() + " %";
 
