@@ -45,16 +45,16 @@ public class SauvegarderDonneesDropdown : MonoBehaviour {
                 paramModules.valeurDropdown = dropdown.value;
                 break;
             case 1:
-                paramModules.heureDebut = dropdown.value;
+                paramModules.heureDebut = dropdown.value - 1;
                 break;
             case 2:
-                paramModules.minuteDebut = dropdown.value;
+                paramModules.minuteDebut = dropdown.value - 1;
                 break;
             case 3:
-                paramModules.heureFin = dropdown.value;
+                paramModules.heureFin = dropdown.value - 1;
                 break;
             case 4:
-                paramModules.minuteFin = dropdown.value;
+                paramModules.minuteFin = dropdown.value - 1;
                 break;
         }
     }

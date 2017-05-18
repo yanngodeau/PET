@@ -34,8 +34,8 @@ public class BarreDeProgression : MonoBehaviour {
         if (paramTaches.tache8Terminee)
             i++;
 
-        //decalage = i * 56;
-        decalage = i * 112;
+        decalage = i * 56;
+        //decalage = i * 112;
         if (i == 8)
             pourcentage = 100;
         else
